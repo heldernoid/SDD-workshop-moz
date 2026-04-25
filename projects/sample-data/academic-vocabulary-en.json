@@ -1,0 +1,2234 @@
+{
+  "version": "1.0",
+  "language_target": "en",
+  "language_source": "pt-MZ",
+  "title": "Vocabulário Académico EN para Estudantes Moçambicanos",
+  "description": "200 palavras de vocabulário académico em inglês com tradução para português de Moçambique. Útil para preparação de TOEFL, IELTS, e candidaturas a ensino superior internacional. Baseado na Academic Word List (Coxhead 2000).",
+  "source_reference": "Academic Word List (AWL), Coxhead 2000, Victoria University of Wellington",
+  "audience": "Estudantes moçambicanos a preparar exames de inglês académico (TOEFL, IELTS) ou candidaturas a universidades estrangeiras de língua inglesa.",
+  "schema": {
+    "id": "Identificador único",
+    "word": "Palavra em inglês",
+    "pos": "Categoria gramatical (parte do discurso)",
+    "definition_en": "Definição curta em inglês simples",
+    "translation_pt": "Tradução para português de Moçambique",
+    "example_en": "Frase de exemplo em inglês",
+    "domain": "Domínio temático",
+    "level": "Nível CEFR (B1, B2, C1)",
+    "word_family": "Outras formas da mesma palavra (opcional)",
+    "moz_example": "Frase de exemplo contextualizada para Moçambique (opcional)",
+    "note_pt": "Nota didáctica em português (opcional)"
+  },
+  "domains": [
+    {
+      "id": "research",
+      "title_pt": "Investigação e Métodos"
+    },
+    {
+      "id": "argumentation",
+      "title_pt": "Argumentação e Escrita Académica"
+    },
+    {
+      "id": "society",
+      "title_pt": "Sociedade, Política e Direito"
+    },
+    {
+      "id": "economy",
+      "title_pt": "Economia e Negócios"
+    },
+    {
+      "id": "science_tech",
+      "title_pt": "Ciência e Tecnologia"
+    },
+    {
+      "id": "education",
+      "title_pt": "Universidade e Estudos Superiores"
+    },
+    {
+      "id": "health",
+      "title_pt": "Saúde e Medicina"
+    },
+    {
+      "id": "environment",
+      "title_pt": "Ambiente e Sustentabilidade"
+    }
+  ],
+  "levels": [
+    "B1",
+    "B2",
+    "C1"
+  ],
+  "stats": {
+    "total_entries": 200,
+    "by_domain": {
+      "research": 40,
+      "argumentation": 35,
+      "society": 25,
+      "economy": 25,
+      "science_tech": 25,
+      "education": 20,
+      "health": 15,
+      "environment": 15
+    },
+    "by_level": {
+      "B1": 72,
+      "B2": 110,
+      "C1": 18
+    },
+    "with_moz_example": 7,
+    "with_note_pt": 14,
+    "with_word_family": 34
+  },
+  "entries": [
+    {
+      "id": 1,
+      "word": "analyse",
+      "pos": "verb",
+      "definition_en": "to examine something in detail to understand it",
+      "translation_pt": "analisar",
+      "example_en": "Researchers analyse data to identify trends.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "analysis",
+        "analyst",
+        "analytical"
+      ],
+      "moz_example": "Researchers in Maputo analyse mobile money usage patterns."
+    },
+    {
+      "id": 2,
+      "word": "analysis",
+      "pos": "noun",
+      "definition_en": "the detailed examination of something",
+      "translation_pt": "análise",
+      "example_en": "The analysis revealed three key patterns.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "analyse",
+        "analyst",
+        "analytical"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "data",
+      "pos": "noun",
+      "definition_en": "facts and statistics collected for reference or analysis",
+      "translation_pt": "dados",
+      "example_en": "The data shows a clear correlation.",
+      "domain": "research",
+      "level": "B1",
+      "note_pt": "Em inglês académico, 'data' é tratado como plural ou massa não-contável (the data show OU shows)."
+    },
+    {
+      "id": 4,
+      "word": "research",
+      "pos": "noun/verb",
+      "definition_en": "systematic investigation to establish facts",
+      "translation_pt": "investigação / pesquisar",
+      "example_en": "Her research focuses on climate change.",
+      "domain": "research",
+      "level": "B1"
+    },
+    {
+      "id": 5,
+      "word": "method",
+      "pos": "noun",
+      "definition_en": "a particular procedure for doing something",
+      "translation_pt": "método",
+      "example_en": "The qualitative method works best here.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "methodology",
+        "methodical",
+        "methodological"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "methodology",
+      "pos": "noun",
+      "definition_en": "a system of methods used in a study",
+      "translation_pt": "metodologia",
+      "example_en": "The chapter explains our methodology in detail.",
+      "domain": "research",
+      "level": "B2",
+      "note_pt": "Não confundir com 'method'. 'Methodology' é o sistema de métodos; 'method' é uma técnica específica."
+    },
+    {
+      "id": 7,
+      "word": "hypothesis",
+      "pos": "noun",
+      "definition_en": "a proposed explanation to be tested",
+      "translation_pt": "hipótese",
+      "example_en": "The hypothesis was rejected after testing.",
+      "domain": "research",
+      "level": "B2",
+      "word_family": [
+        "hypothesise",
+        "hypothetical"
+      ],
+      "note_pt": "Plural irregular: 'hypotheses'."
+    },
+    {
+      "id": 8,
+      "word": "variable",
+      "pos": "noun",
+      "definition_en": "a factor that can change in an experiment",
+      "translation_pt": "variável",
+      "example_en": "Income is a key variable in this study.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 9,
+      "word": "evidence",
+      "pos": "noun",
+      "definition_en": "facts or signs that support a claim",
+      "translation_pt": "evidência / prova",
+      "example_en": "There is strong evidence for this claim.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "evident",
+        "evidently"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "evaluate",
+      "pos": "verb",
+      "definition_en": "to judge the value or quality of something",
+      "translation_pt": "avaliar",
+      "example_en": "We evaluate the programme's impact annually.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "evaluation",
+        "evaluator"
+      ]
+    },
+    {
+      "id": 11,
+      "word": "evaluation",
+      "pos": "noun",
+      "definition_en": "the process of judging quality or value",
+      "translation_pt": "avaliação",
+      "example_en": "An external evaluation is required.",
+      "domain": "research",
+      "level": "B1"
+    },
+    {
+      "id": 12,
+      "word": "assess",
+      "pos": "verb",
+      "definition_en": "to make a judgement about something",
+      "translation_pt": "avaliar / aferir",
+      "example_en": "Teachers assess student progress regularly.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "assessment"
+      ]
+    },
+    {
+      "id": 13,
+      "word": "assessment",
+      "pos": "noun",
+      "definition_en": "the act of judging quality",
+      "translation_pt": "avaliação",
+      "example_en": "The assessment showed mixed results.",
+      "domain": "research",
+      "level": "B1"
+    },
+    {
+      "id": 14,
+      "word": "identify",
+      "pos": "verb",
+      "definition_en": "to recognise and name something",
+      "translation_pt": "identificar",
+      "example_en": "We need to identify the main causes.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "identification",
+        "identity"
+      ]
+    },
+    {
+      "id": 15,
+      "word": "interpret",
+      "pos": "verb",
+      "definition_en": "to explain the meaning of information",
+      "translation_pt": "interpretar",
+      "example_en": "How do we interpret these findings?",
+      "domain": "research",
+      "level": "B2",
+      "word_family": [
+        "interpretation",
+        "interpreter"
+      ]
+    },
+    {
+      "id": 16,
+      "word": "conclude",
+      "pos": "verb",
+      "definition_en": "to reach a decision after consideration",
+      "translation_pt": "concluir",
+      "example_en": "We conclude that more research is needed.",
+      "domain": "research",
+      "level": "B1",
+      "word_family": [
+        "conclusion",
+        "conclusive"
+      ]
+    },
+    {
+      "id": 17,
+      "word": "conclusion",
+      "pos": "noun",
+      "definition_en": "a judgement reached after consideration",
+      "translation_pt": "conclusão",
+      "example_en": "The conclusion is supported by data.",
+      "domain": "research",
+      "level": "B1"
+    },
+    {
+      "id": 18,
+      "word": "survey",
+      "pos": "noun/verb",
+      "definition_en": "a study of opinions or experiences from many people",
+      "translation_pt": "inquérito / inquirir",
+      "example_en": "We conducted a survey of 500 households.",
+      "domain": "research",
+      "level": "B1",
+      "moz_example": "A survey of 500 households in Beira showed widespread mobile money use."
+    },
+    {
+      "id": 19,
+      "word": "sample",
+      "pos": "noun",
+      "definition_en": "a small part used to represent a whole",
+      "translation_pt": "amostra",
+      "example_en": "The sample included 200 students.",
+      "domain": "research",
+      "level": "B1"
+    },
+    {
+      "id": 20,
+      "word": "correlation",
+      "pos": "noun",
+      "definition_en": "a mutual relationship between two things",
+      "translation_pt": "correlação",
+      "example_en": "There is a strong correlation between A and B.",
+      "domain": "research",
+      "level": "B2",
+      "note_pt": "ATENÇÃO: 'correlation does not imply causation' (correlação não implica causalidade)."
+    },
+    {
+      "id": 21,
+      "word": "variable",
+      "pos": "adjective",
+      "definition_en": "able to change or vary",
+      "translation_pt": "variável (adj.)",
+      "example_en": "Rainfall is highly variable in this region.",
+      "domain": "research",
+      "level": "B2",
+      "note_pt": "Como adjectivo significa 'que varia'. Como substantivo, é um factor num estudo."
+    },
+    {
+      "id": 22,
+      "word": "validate",
+      "pos": "verb",
+      "definition_en": "to check or prove the validity of",
+      "translation_pt": "validar",
+      "example_en": "We need to validate these results.",
+      "domain": "research",
+      "level": "B2",
+      "word_family": [
+        "validation",
+        "valid",
+        "validity"
+      ]
+    },
+    {
+      "id": 23,
+      "word": "comprehensive",
+      "pos": "adjective",
+      "definition_en": "complete and including everything",
+      "translation_pt": "abrangente / completo",
+      "example_en": "A comprehensive review of the literature.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 24,
+      "word": "framework",
+      "pos": "noun",
+      "definition_en": "a basic structure of ideas",
+      "translation_pt": "quadro conceptual / estrutura",
+      "example_en": "We propose a new framework for analysis.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 25,
+      "word": "paradigm",
+      "pos": "noun",
+      "definition_en": "a typical pattern or model",
+      "translation_pt": "paradigma",
+      "example_en": "This represents a paradigm shift in the field.",
+      "domain": "research",
+      "level": "C1"
+    },
+    {
+      "id": 26,
+      "word": "empirical",
+      "pos": "adjective",
+      "definition_en": "based on observation or experience, not theory",
+      "translation_pt": "empírico",
+      "example_en": "The study uses empirical data from 2020-2025.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 27,
+      "word": "qualitative",
+      "pos": "adjective",
+      "definition_en": "relating to quality, not quantity",
+      "translation_pt": "qualitativo",
+      "example_en": "Qualitative research uses interviews.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 28,
+      "word": "quantitative",
+      "pos": "adjective",
+      "definition_en": "relating to numbers and amounts",
+      "translation_pt": "quantitativo",
+      "example_en": "Quantitative methods rely on statistics.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 29,
+      "word": "infer",
+      "pos": "verb",
+      "definition_en": "to conclude from evidence",
+      "translation_pt": "inferir / deduzir",
+      "example_en": "We can infer from the data that demand grew.",
+      "domain": "research",
+      "level": "B2",
+      "word_family": [
+        "inference"
+      ]
+    },
+    {
+      "id": 30,
+      "word": "inference",
+      "pos": "noun",
+      "definition_en": "a conclusion reached from evidence",
+      "translation_pt": "inferência",
+      "example_en": "This inference is supported by multiple studies.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 31,
+      "word": "rigorous",
+      "pos": "adjective",
+      "definition_en": "extremely thorough and accurate",
+      "translation_pt": "rigoroso",
+      "example_en": "The study followed a rigorous methodology.",
+      "domain": "research",
+      "level": "C1"
+    },
+    {
+      "id": 32,
+      "word": "scrutinise",
+      "pos": "verb",
+      "definition_en": "to examine carefully",
+      "translation_pt": "escrutinar / examinar",
+      "example_en": "Reviewers scrutinise every claim.",
+      "domain": "research",
+      "level": "C1",
+      "note_pt": "Spelling: 'scrutinise' (BE) ou 'scrutinize' (AE)."
+    },
+    {
+      "id": 33,
+      "word": "preliminary",
+      "pos": "adjective",
+      "definition_en": "coming before something more important",
+      "translation_pt": "preliminar",
+      "example_en": "Preliminary results are encouraging.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 34,
+      "word": "subsequent",
+      "pos": "adjective",
+      "definition_en": "coming after something else",
+      "translation_pt": "subsequente / posterior",
+      "example_en": "Subsequent studies confirmed the finding.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 35,
+      "word": "phenomenon",
+      "pos": "noun",
+      "definition_en": "an observable fact or event",
+      "translation_pt": "fenómeno",
+      "example_en": "Climate change is a global phenomenon.",
+      "domain": "research",
+      "level": "B2",
+      "note_pt": "Plural irregular: 'phenomena'."
+    },
+    {
+      "id": 36,
+      "word": "statistically significant",
+      "pos": "phrase",
+      "definition_en": "unlikely to have occurred by chance",
+      "translation_pt": "estatisticamente significativo",
+      "example_en": "The difference was statistically significant.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 37,
+      "word": "bias",
+      "pos": "noun",
+      "definition_en": "an unfair preference that may distort results",
+      "translation_pt": "viés / enviesamento",
+      "example_en": "The study controlled for selection bias.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 38,
+      "word": "longitudinal",
+      "pos": "adjective",
+      "definition_en": "studying the same subjects over time",
+      "translation_pt": "longitudinal",
+      "example_en": "A longitudinal study tracks subjects for years.",
+      "domain": "research",
+      "level": "C1"
+    },
+    {
+      "id": 39,
+      "word": "hypothesise",
+      "pos": "verb",
+      "definition_en": "to propose an explanation to be tested",
+      "translation_pt": "fazer hipótese",
+      "example_en": "We hypothesise that income affects savings.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 40,
+      "word": "conceptual",
+      "pos": "adjective",
+      "definition_en": "relating to ideas or concepts",
+      "translation_pt": "conceptual",
+      "example_en": "The conceptual framework guides the research.",
+      "domain": "research",
+      "level": "B2"
+    },
+    {
+      "id": 41,
+      "word": "argue",
+      "pos": "verb",
+      "definition_en": "to give reasons for or against an idea",
+      "translation_pt": "argumentar",
+      "example_en": "The author argues that policy must change.",
+      "domain": "argumentation",
+      "level": "B1",
+      "word_family": [
+        "argument",
+        "arguable"
+      ]
+    },
+    {
+      "id": 42,
+      "word": "argument",
+      "pos": "noun",
+      "definition_en": "a reason given to support an idea",
+      "translation_pt": "argumento",
+      "example_en": "Her argument is well-supported.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 43,
+      "word": "claim",
+      "pos": "noun/verb",
+      "definition_en": "a statement that something is true",
+      "translation_pt": "afirmação / afirmar",
+      "example_en": "He claims that the data is flawed.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 44,
+      "word": "assert",
+      "pos": "verb",
+      "definition_en": "to state firmly",
+      "translation_pt": "afirmar / sustentar",
+      "example_en": "The author asserts that reform is urgent.",
+      "domain": "argumentation",
+      "level": "B2",
+      "word_family": [
+        "assertion"
+      ]
+    },
+    {
+      "id": 45,
+      "word": "contend",
+      "pos": "verb",
+      "definition_en": "to argue or maintain",
+      "translation_pt": "sustentar / argumentar",
+      "example_en": "Critics contend that the policy failed.",
+      "domain": "argumentation",
+      "level": "C1"
+    },
+    {
+      "id": 46,
+      "word": "imply",
+      "pos": "verb",
+      "definition_en": "to suggest without stating directly",
+      "translation_pt": "implicar / sugerir",
+      "example_en": "These results imply a causal relationship.",
+      "domain": "argumentation",
+      "level": "B2",
+      "word_family": [
+        "implication",
+        "implicit"
+      ]
+    },
+    {
+      "id": 47,
+      "word": "implication",
+      "pos": "noun",
+      "definition_en": "a likely consequence or meaning",
+      "translation_pt": "implicação",
+      "example_en": "The implications for policy are significant.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 48,
+      "word": "explicit",
+      "pos": "adjective",
+      "definition_en": "stated clearly and openly",
+      "translation_pt": "explícito",
+      "example_en": "Make your assumptions explicit.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 49,
+      "word": "implicit",
+      "pos": "adjective",
+      "definition_en": "suggested but not stated",
+      "translation_pt": "implícito",
+      "example_en": "There is an implicit assumption here.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 50,
+      "word": "acknowledge",
+      "pos": "verb",
+      "definition_en": "to accept that something is true",
+      "translation_pt": "reconhecer / admitir",
+      "example_en": "The author acknowledges the limitations.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 51,
+      "word": "contrary",
+      "pos": "adjective/noun",
+      "definition_en": "opposite in nature or direction",
+      "translation_pt": "contrário",
+      "example_en": "On the contrary, the data shows growth.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 52,
+      "word": "nevertheless",
+      "pos": "adverb",
+      "definition_en": "in spite of that",
+      "translation_pt": "no entanto / contudo",
+      "example_en": "The method is old; nevertheless, it works.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 53,
+      "word": "furthermore",
+      "pos": "adverb",
+      "definition_en": "in addition",
+      "translation_pt": "além disso",
+      "example_en": "Furthermore, the cost is reasonable.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 54,
+      "word": "moreover",
+      "pos": "adverb",
+      "definition_en": "as a further matter",
+      "translation_pt": "além do mais",
+      "example_en": "Moreover, the timing is critical.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 55,
+      "word": "however",
+      "pos": "adverb",
+      "definition_en": "but / on the other hand",
+      "translation_pt": "no entanto / porém",
+      "example_en": "However, exceptions exist.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 56,
+      "word": "therefore",
+      "pos": "adverb",
+      "definition_en": "for that reason",
+      "translation_pt": "portanto / por isso",
+      "example_en": "Therefore, we recommend reform.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 57,
+      "word": "consequently",
+      "pos": "adverb",
+      "definition_en": "as a result",
+      "translation_pt": "consequentemente",
+      "example_en": "Demand fell; consequently, prices dropped.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 58,
+      "word": "thus",
+      "pos": "adverb",
+      "definition_en": "as a result; in this way",
+      "translation_pt": "assim / deste modo",
+      "example_en": "Thus, the hypothesis is supported.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 59,
+      "word": "hence",
+      "pos": "adverb",
+      "definition_en": "for this reason",
+      "translation_pt": "logo / portanto",
+      "example_en": "Hence the need for further investigation.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 60,
+      "word": "contradict",
+      "pos": "verb",
+      "definition_en": "to assert the opposite of",
+      "translation_pt": "contradizer",
+      "example_en": "These findings contradict earlier work.",
+      "domain": "argumentation",
+      "level": "B2",
+      "word_family": [
+        "contradiction",
+        "contradictory"
+      ]
+    },
+    {
+      "id": 61,
+      "word": "refute",
+      "pos": "verb",
+      "definition_en": "to prove a statement wrong",
+      "translation_pt": "refutar",
+      "example_en": "The new study refutes the original theory.",
+      "domain": "argumentation",
+      "level": "C1"
+    },
+    {
+      "id": 62,
+      "word": "substantiate",
+      "pos": "verb",
+      "definition_en": "to provide evidence to support",
+      "translation_pt": "fundamentar / comprovar",
+      "example_en": "More data is needed to substantiate this claim.",
+      "domain": "argumentation",
+      "level": "C1"
+    },
+    {
+      "id": 63,
+      "word": "compelling",
+      "pos": "adjective",
+      "definition_en": "strongly persuasive",
+      "translation_pt": "convincente / forte",
+      "example_en": "She made a compelling argument.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 64,
+      "word": "convincing",
+      "pos": "adjective",
+      "definition_en": "able to persuade",
+      "translation_pt": "convincente",
+      "example_en": "The evidence is convincing.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 65,
+      "word": "plausible",
+      "pos": "adjective",
+      "definition_en": "seeming reasonable or probable",
+      "translation_pt": "plausível",
+      "example_en": "This is a plausible explanation.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 66,
+      "word": "validity",
+      "pos": "noun",
+      "definition_en": "the quality of being well-founded",
+      "translation_pt": "validade",
+      "example_en": "We tested the validity of the model.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 67,
+      "word": "counterargument",
+      "pos": "noun",
+      "definition_en": "an argument made against another",
+      "translation_pt": "contra-argumento",
+      "example_en": "Address counterarguments in your essay.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 68,
+      "word": "rebuttal",
+      "pos": "noun",
+      "definition_en": "a refutation of an argument",
+      "translation_pt": "refutação",
+      "example_en": "His rebuttal was well-prepared.",
+      "domain": "argumentation",
+      "level": "C1"
+    },
+    {
+      "id": 69,
+      "word": "synthesise",
+      "pos": "verb",
+      "definition_en": "to combine ideas into a coherent whole",
+      "translation_pt": "sintetizar",
+      "example_en": "The chapter synthesises 30 years of research.",
+      "domain": "argumentation",
+      "level": "C1",
+      "word_family": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": 70,
+      "word": "articulate",
+      "pos": "verb",
+      "definition_en": "to express clearly",
+      "translation_pt": "articular / expressar",
+      "example_en": "She articulated her position well.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 71,
+      "word": "emphasise",
+      "pos": "verb",
+      "definition_en": "to give special importance to",
+      "translation_pt": "enfatizar",
+      "example_en": "We emphasise the need for action.",
+      "domain": "argumentation",
+      "level": "B1",
+      "word_family": [
+        "emphasis",
+        "emphatic"
+      ]
+    },
+    {
+      "id": 72,
+      "word": "highlight",
+      "pos": "verb",
+      "definition_en": "to draw attention to",
+      "translation_pt": "destacar / realçar",
+      "example_en": "The report highlights three key issues.",
+      "domain": "argumentation",
+      "level": "B1"
+    },
+    {
+      "id": 73,
+      "word": "elaborate",
+      "pos": "verb",
+      "definition_en": "to explain in detail",
+      "translation_pt": "elaborar / desenvolver",
+      "example_en": "Could you elaborate on that point?",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 74,
+      "word": "concise",
+      "pos": "adjective",
+      "definition_en": "giving information clearly in few words",
+      "translation_pt": "conciso",
+      "example_en": "Write a concise summary.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 75,
+      "word": "coherent",
+      "pos": "adjective",
+      "definition_en": "logical and consistent",
+      "translation_pt": "coerente",
+      "example_en": "The argument is coherent and well-structured.",
+      "domain": "argumentation",
+      "level": "B2"
+    },
+    {
+      "id": 76,
+      "word": "policy",
+      "pos": "noun",
+      "definition_en": "a set of rules or course of action by government",
+      "translation_pt": "política / regulamento",
+      "example_en": "The new education policy starts in 2027.",
+      "domain": "society",
+      "level": "B1",
+      "note_pt": "'Policy' (regulamento, plano) é diferente de 'politics' (atividade política)."
+    },
+    {
+      "id": 77,
+      "word": "politics",
+      "pos": "noun",
+      "definition_en": "the activities of government",
+      "translation_pt": "política",
+      "example_en": "Mozambican politics has changed greatly.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 78,
+      "word": "democracy",
+      "pos": "noun",
+      "definition_en": "government by the people",
+      "translation_pt": "democracia",
+      "example_en": "Mozambique held its first multiparty elections in 1994.",
+      "domain": "society",
+      "level": "B1",
+      "word_family": [
+        "democratic",
+        "democratise"
+      ]
+    },
+    {
+      "id": 79,
+      "word": "legislation",
+      "pos": "noun",
+      "definition_en": "laws considered collectively",
+      "translation_pt": "legislação",
+      "example_en": "New legislation regulates online commerce.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 80,
+      "word": "legal",
+      "pos": "adjective",
+      "definition_en": "permitted by law",
+      "translation_pt": "legal",
+      "example_en": "It is legal to register a business online.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 81,
+      "word": "regulate",
+      "pos": "verb",
+      "definition_en": "to control by rules",
+      "translation_pt": "regulamentar",
+      "example_en": "The Banco de Moçambique regulates the currency.",
+      "domain": "society",
+      "level": "B2",
+      "word_family": [
+        "regulation",
+        "regulator",
+        "regulatory"
+      ]
+    },
+    {
+      "id": 82,
+      "word": "regulation",
+      "pos": "noun",
+      "definition_en": "a rule made by an authority",
+      "translation_pt": "regulamento",
+      "example_en": "New regulations affect mobile operators.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 83,
+      "word": "constitution",
+      "pos": "noun",
+      "definition_en": "the fundamental laws of a country",
+      "translation_pt": "constituição",
+      "example_en": "The constitution was revised in 1990.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 84,
+      "word": "amendment",
+      "pos": "noun",
+      "definition_en": "a change to a document or law",
+      "translation_pt": "emenda",
+      "example_en": "The amendment passed unanimously.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 85,
+      "word": "election",
+      "pos": "noun",
+      "definition_en": "process of choosing leaders by vote",
+      "translation_pt": "eleição",
+      "example_en": "The next general election is in 2029.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 86,
+      "word": "citizen",
+      "pos": "noun",
+      "definition_en": "a member of a country with rights",
+      "translation_pt": "cidadão",
+      "example_en": "All citizens have the right to vote at 18.",
+      "domain": "society",
+      "level": "B1",
+      "word_family": [
+        "citizenship"
+      ]
+    },
+    {
+      "id": 87,
+      "word": "civic",
+      "pos": "adjective",
+      "definition_en": "relating to citizens or city",
+      "translation_pt": "cívico",
+      "example_en": "Voting is a civic duty.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 88,
+      "word": "welfare",
+      "pos": "noun",
+      "definition_en": "the wellbeing of a person or group",
+      "translation_pt": "bem-estar",
+      "example_en": "The state provides social welfare programmes.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 89,
+      "word": "inequality",
+      "pos": "noun",
+      "definition_en": "the state of being unequal",
+      "translation_pt": "desigualdade",
+      "example_en": "Income inequality remains a challenge.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 90,
+      "word": "poverty",
+      "pos": "noun",
+      "definition_en": "the state of being poor",
+      "translation_pt": "pobreza",
+      "example_en": "Reducing poverty requires multiple interventions.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 91,
+      "word": "urbanisation",
+      "pos": "noun",
+      "definition_en": "the process of becoming urban",
+      "translation_pt": "urbanização",
+      "example_en": "Maputo has experienced rapid urbanisation.",
+      "domain": "society",
+      "level": "B2",
+      "moz_example": "Maputo has experienced rapid urbanisation since the 1990s."
+    },
+    {
+      "id": 92,
+      "word": "infrastructure",
+      "pos": "noun",
+      "definition_en": "basic systems and services of a country",
+      "translation_pt": "infraestrutura",
+      "example_en": "Investment in infrastructure boosts growth.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 93,
+      "word": "sustainable",
+      "pos": "adjective",
+      "definition_en": "able to be maintained over time",
+      "translation_pt": "sustentável",
+      "example_en": "Sustainable development requires long-term planning.",
+      "domain": "society",
+      "level": "B2",
+      "word_family": [
+        "sustainability",
+        "sustain"
+      ]
+    },
+    {
+      "id": 94,
+      "word": "integration",
+      "pos": "noun",
+      "definition_en": "the act of combining into a whole",
+      "translation_pt": "integração",
+      "example_en": "Regional integration in SADC is ongoing.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 95,
+      "word": "diverse",
+      "pos": "adjective",
+      "definition_en": "showing variety",
+      "translation_pt": "diverso / variado",
+      "example_en": "Mozambique has a diverse linguistic landscape.",
+      "domain": "society",
+      "level": "B1",
+      "word_family": [
+        "diversity"
+      ]
+    },
+    {
+      "id": 96,
+      "word": "diversity",
+      "pos": "noun",
+      "definition_en": "the state of being varied",
+      "translation_pt": "diversidade",
+      "example_en": "Linguistic diversity is rich in Mozambique.",
+      "domain": "society",
+      "level": "B1"
+    },
+    {
+      "id": 97,
+      "word": "ethnic",
+      "pos": "adjective",
+      "definition_en": "relating to a national or cultural group",
+      "translation_pt": "étnico",
+      "example_en": "Mozambique has many ethnic groups.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 98,
+      "word": "indigenous",
+      "pos": "adjective",
+      "definition_en": "originating naturally in a place",
+      "translation_pt": "indígena / autóctone",
+      "example_en": "Indigenous languages are protected by law.",
+      "domain": "society",
+      "level": "B2"
+    },
+    {
+      "id": 99,
+      "word": "marginalised",
+      "pos": "adjective",
+      "definition_en": "treated as insignificant",
+      "translation_pt": "marginalizado",
+      "example_en": "Policies aim to support marginalised communities.",
+      "domain": "society",
+      "level": "C1"
+    },
+    {
+      "id": 100,
+      "word": "advocacy",
+      "pos": "noun",
+      "definition_en": "public support for a cause",
+      "translation_pt": "advocacia / defesa pública",
+      "example_en": "Civil society advocacy has grown.",
+      "domain": "society",
+      "level": "C1"
+    },
+    {
+      "id": 101,
+      "word": "economy",
+      "pos": "noun",
+      "definition_en": "the wealth and resources of a country",
+      "translation_pt": "economia",
+      "example_en": "The economy grew by 5% last year.",
+      "domain": "economy",
+      "level": "B1",
+      "word_family": [
+        "economic",
+        "economical"
+      ]
+    },
+    {
+      "id": 102,
+      "word": "economic",
+      "pos": "adjective",
+      "definition_en": "relating to economy",
+      "translation_pt": "económico",
+      "example_en": "Economic growth has been uneven.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 103,
+      "word": "invest",
+      "pos": "verb",
+      "definition_en": "to put money into something for profit",
+      "translation_pt": "investir",
+      "example_en": "Foreign companies invest in mining.",
+      "domain": "economy",
+      "level": "B1",
+      "word_family": [
+        "investment",
+        "investor"
+      ]
+    },
+    {
+      "id": 104,
+      "word": "investment",
+      "pos": "noun",
+      "definition_en": "money committed to gain returns",
+      "translation_pt": "investimento",
+      "example_en": "Investment in renewable energy is growing.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 105,
+      "word": "revenue",
+      "pos": "noun",
+      "definition_en": "income, especially of a company or government",
+      "translation_pt": "receita",
+      "example_en": "Government revenue from gas exports rose.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 106,
+      "word": "profit",
+      "pos": "noun",
+      "definition_en": "money gained from a business",
+      "translation_pt": "lucro",
+      "example_en": "The company reported record profits.",
+      "domain": "economy",
+      "level": "B1",
+      "word_family": [
+        "profitable"
+      ]
+    },
+    {
+      "id": 107,
+      "word": "inflation",
+      "pos": "noun",
+      "definition_en": "general rise in prices",
+      "translation_pt": "inflação",
+      "example_en": "Inflation reached 4% in 2025.",
+      "domain": "economy",
+      "level": "B2",
+      "moz_example": "Inflation in Mozambique reached 4% in 2025 according to the BCM."
+    },
+    {
+      "id": 108,
+      "word": "currency",
+      "pos": "noun",
+      "definition_en": "the money used in a country",
+      "translation_pt": "moeda",
+      "example_en": "The metical is the currency of Mozambique.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 109,
+      "word": "exchange rate",
+      "pos": "phrase",
+      "definition_en": "the value of one currency in another",
+      "translation_pt": "taxa de câmbio",
+      "example_en": "The MZN/USD exchange rate has been stable.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 110,
+      "word": "interest rate",
+      "pos": "phrase",
+      "definition_en": "the cost of borrowing money",
+      "translation_pt": "taxa de juro",
+      "example_en": "The Prime Rate is set by the central bank.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 111,
+      "word": "budget",
+      "pos": "noun",
+      "definition_en": "an estimate of income and expenditure",
+      "translation_pt": "orçamento",
+      "example_en": "The annual budget was approved in October.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 112,
+      "word": "expenditure",
+      "pos": "noun",
+      "definition_en": "money spent",
+      "translation_pt": "despesa",
+      "example_en": "Government expenditure on health rose.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 113,
+      "word": "commerce",
+      "pos": "noun",
+      "definition_en": "the buying and selling of goods",
+      "translation_pt": "comércio",
+      "example_en": "E-commerce has grown rapidly.",
+      "domain": "economy",
+      "level": "B2",
+      "word_family": [
+        "commercial"
+      ]
+    },
+    {
+      "id": 114,
+      "word": "trade",
+      "pos": "noun/verb",
+      "definition_en": "the exchange of goods and services",
+      "translation_pt": "comércio / negociar",
+      "example_en": "Trade between SADC countries is increasing.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 115,
+      "word": "market",
+      "pos": "noun",
+      "definition_en": "where goods are bought and sold",
+      "translation_pt": "mercado",
+      "example_en": "The market for mobile money is competitive.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 116,
+      "word": "supply",
+      "pos": "noun/verb",
+      "definition_en": "the amount available for use",
+      "translation_pt": "oferta / fornecer",
+      "example_en": "Supply has not kept pace with demand.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 117,
+      "word": "demand",
+      "pos": "noun/verb",
+      "definition_en": "an urgent need or desire for something",
+      "translation_pt": "procura / exigir",
+      "example_en": "Demand for clean energy is rising.",
+      "domain": "economy",
+      "level": "B1"
+    },
+    {
+      "id": 118,
+      "word": "entrepreneur",
+      "pos": "noun",
+      "definition_en": "a person who starts a business",
+      "translation_pt": "empreendedor",
+      "example_en": "Young entrepreneurs are reshaping the economy.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 119,
+      "word": "enterprise",
+      "pos": "noun",
+      "definition_en": "a project or business",
+      "translation_pt": "empresa / empreendimento",
+      "example_en": "Small enterprises drive employment.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 120,
+      "word": "liability",
+      "pos": "noun",
+      "definition_en": "a financial obligation",
+      "translation_pt": "passivo / obrigação",
+      "example_en": "Liabilities exceeded assets.",
+      "domain": "economy",
+      "level": "C1"
+    },
+    {
+      "id": 121,
+      "word": "asset",
+      "pos": "noun",
+      "definition_en": "a useful or valuable thing",
+      "translation_pt": "activo / bem",
+      "example_en": "Real estate is a valuable asset.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 122,
+      "word": "dividend",
+      "pos": "noun",
+      "definition_en": "a sum paid to shareholders",
+      "translation_pt": "dividendo",
+      "example_en": "The company paid a dividend in March.",
+      "domain": "economy",
+      "level": "C1"
+    },
+    {
+      "id": 123,
+      "word": "subsidy",
+      "pos": "noun",
+      "definition_en": "money paid by the government to support an industry",
+      "translation_pt": "subsídio",
+      "example_en": "Fuel subsidies cost millions annually.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 124,
+      "word": "tariff",
+      "pos": "noun",
+      "definition_en": "a tax on imports or exports",
+      "translation_pt": "tarifa / direito aduaneiro",
+      "example_en": "Tariffs on imported sugar were reduced.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 125,
+      "word": "fiscal",
+      "pos": "adjective",
+      "definition_en": "relating to government finance",
+      "translation_pt": "fiscal",
+      "example_en": "Fiscal policy aims to control deficits.",
+      "domain": "economy",
+      "level": "B2"
+    },
+    {
+      "id": 126,
+      "word": "technology",
+      "pos": "noun",
+      "definition_en": "the application of scientific knowledge",
+      "translation_pt": "tecnologia",
+      "example_en": "Mobile technology transformed banking.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 127,
+      "word": "innovation",
+      "pos": "noun",
+      "definition_en": "a new method or product",
+      "translation_pt": "inovação",
+      "example_en": "M-Pesa was a major innovation in Africa.",
+      "domain": "science_tech",
+      "level": "B1",
+      "word_family": [
+        "innovate",
+        "innovative"
+      ]
+    },
+    {
+      "id": 128,
+      "word": "innovate",
+      "pos": "verb",
+      "definition_en": "to introduce something new",
+      "translation_pt": "inovar",
+      "example_en": "Companies must innovate to survive.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 129,
+      "word": "digital",
+      "pos": "adjective",
+      "definition_en": "using digital technology",
+      "translation_pt": "digital",
+      "example_en": "Digital literacy is essential today.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 130,
+      "word": "algorithm",
+      "pos": "noun",
+      "definition_en": "a set of rules for solving a problem",
+      "translation_pt": "algoritmo",
+      "example_en": "Search engines use complex algorithms.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 131,
+      "word": "data science",
+      "pos": "phrase",
+      "definition_en": "the field of analysing data",
+      "translation_pt": "ciência de dados",
+      "example_en": "Data science combines statistics and computing.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 132,
+      "word": "artificial intelligence",
+      "pos": "phrase",
+      "definition_en": "machine intelligence",
+      "translation_pt": "inteligência artificial",
+      "example_en": "AI is transforming many industries.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 133,
+      "word": "machine learning",
+      "pos": "phrase",
+      "definition_en": "computers that learn from data",
+      "translation_pt": "aprendizagem automática",
+      "example_en": "Machine learning improves recommendations.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 134,
+      "word": "automate",
+      "pos": "verb",
+      "definition_en": "to make a process operate automatically",
+      "translation_pt": "automatizar",
+      "example_en": "Banks automate routine processes.",
+      "domain": "science_tech",
+      "level": "B2",
+      "word_family": [
+        "automation",
+        "automated"
+      ]
+    },
+    {
+      "id": 135,
+      "word": "automation",
+      "pos": "noun",
+      "definition_en": "use of technology to perform tasks",
+      "translation_pt": "automação",
+      "example_en": "Automation has reduced manual labour.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 136,
+      "word": "software",
+      "pos": "noun",
+      "definition_en": "computer programs",
+      "translation_pt": "software / programas",
+      "example_en": "Open-source software is widely used.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 137,
+      "word": "hardware",
+      "pos": "noun",
+      "definition_en": "physical components of computers",
+      "translation_pt": "hardware / equipamento",
+      "example_en": "Hardware costs have dropped sharply.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 138,
+      "word": "network",
+      "pos": "noun",
+      "definition_en": "an interconnected system",
+      "translation_pt": "rede",
+      "example_en": "The 4G network covers most provinces.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 139,
+      "word": "encryption",
+      "pos": "noun",
+      "definition_en": "the process of encoding data",
+      "translation_pt": "encriptação / cifragem",
+      "example_en": "Encryption protects financial transactions.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 140,
+      "word": "scalability",
+      "pos": "noun",
+      "definition_en": "the property of being able to handle growth",
+      "translation_pt": "escalabilidade",
+      "example_en": "Scalability is critical for cloud platforms.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 141,
+      "word": "scalable",
+      "pos": "adjective",
+      "definition_en": "able to handle increased demand",
+      "translation_pt": "escalável",
+      "example_en": "The system must be scalable.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 142,
+      "word": "efficient",
+      "pos": "adjective",
+      "definition_en": "achieving results without waste",
+      "translation_pt": "eficiente",
+      "example_en": "Efficient algorithms save energy.",
+      "domain": "science_tech",
+      "level": "B1",
+      "word_family": [
+        "efficiency"
+      ]
+    },
+    {
+      "id": 143,
+      "word": "efficiency",
+      "pos": "noun",
+      "definition_en": "the state of being efficient",
+      "translation_pt": "eficiência",
+      "example_en": "Energy efficiency is improving.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 144,
+      "word": "biotechnology",
+      "pos": "noun",
+      "definition_en": "use of living systems for technology",
+      "translation_pt": "biotecnologia",
+      "example_en": "Biotechnology helps develop new medicines.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 145,
+      "word": "genome",
+      "pos": "noun",
+      "definition_en": "the complete genetic material",
+      "translation_pt": "genoma",
+      "example_en": "The human genome was first sequenced in 2003.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 146,
+      "word": "particle",
+      "pos": "noun",
+      "definition_en": "a tiny piece of matter",
+      "translation_pt": "partícula",
+      "example_en": "Subatomic particles are studied at CERN.",
+      "domain": "science_tech",
+      "level": "B2"
+    },
+    {
+      "id": 147,
+      "word": "organism",
+      "pos": "noun",
+      "definition_en": "a living thing",
+      "translation_pt": "organismo",
+      "example_en": "Single-celled organisms include bacteria.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 148,
+      "word": "cell",
+      "pos": "noun",
+      "definition_en": "the smallest unit of life",
+      "translation_pt": "célula",
+      "example_en": "Cells contain DNA in their nuclei.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 149,
+      "word": "molecule",
+      "pos": "noun",
+      "definition_en": "the smallest unit of a chemical compound",
+      "translation_pt": "molécula",
+      "example_en": "Water is a simple molecule.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 150,
+      "word": "atom",
+      "pos": "noun",
+      "definition_en": "the smallest unit of an element",
+      "translation_pt": "átomo",
+      "example_en": "Atoms combine to form molecules.",
+      "domain": "science_tech",
+      "level": "B1"
+    },
+    {
+      "id": 151,
+      "word": "undergraduate",
+      "pos": "noun",
+      "definition_en": "a student studying for a first degree",
+      "translation_pt": "estudante de licenciatura",
+      "example_en": "She is an undergraduate at UEM.",
+      "domain": "education",
+      "level": "B2",
+      "moz_example": "She is an undergraduate at Universidade Eduardo Mondlane."
+    },
+    {
+      "id": 152,
+      "word": "postgraduate",
+      "pos": "noun",
+      "definition_en": "a student doing advanced study",
+      "translation_pt": "estudante de pós-graduação",
+      "example_en": "Postgraduate studies often require a thesis.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 153,
+      "word": "scholarship",
+      "pos": "noun",
+      "definition_en": "financial support for a student",
+      "translation_pt": "bolsa de estudo",
+      "example_en": "He won a scholarship to study abroad.",
+      "domain": "education",
+      "level": "B1"
+    },
+    {
+      "id": 154,
+      "word": "dissertation",
+      "pos": "noun",
+      "definition_en": "a long essay for a degree",
+      "translation_pt": "dissertação",
+      "example_en": "Her dissertation is on rural finance.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 155,
+      "word": "thesis",
+      "pos": "noun",
+      "definition_en": "a long piece of academic writing",
+      "translation_pt": "tese",
+      "example_en": "His thesis defends a controversial position.",
+      "domain": "education",
+      "level": "B2",
+      "note_pt": "Plural irregular: 'theses'."
+    },
+    {
+      "id": 156,
+      "word": "curriculum",
+      "pos": "noun",
+      "definition_en": "the subjects taught in a course",
+      "translation_pt": "currículo",
+      "example_en": "The curriculum was updated last year.",
+      "domain": "education",
+      "level": "B2",
+      "note_pt": "Plural: 'curricula' ou 'curriculums'."
+    },
+    {
+      "id": 157,
+      "word": "syllabus",
+      "pos": "noun",
+      "definition_en": "an outline of a subject's contents",
+      "translation_pt": "programa / sílabo",
+      "example_en": "The syllabus lists all required readings.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 158,
+      "word": "lecture",
+      "pos": "noun",
+      "definition_en": "an educational talk to students",
+      "translation_pt": "palestra / aula",
+      "example_en": "Lectures are recorded for review.",
+      "domain": "education",
+      "level": "B1"
+    },
+    {
+      "id": 159,
+      "word": "seminar",
+      "pos": "noun",
+      "definition_en": "a small group discussion class",
+      "translation_pt": "seminário",
+      "example_en": "Seminars allow deeper engagement.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 160,
+      "word": "tutorial",
+      "pos": "noun",
+      "definition_en": "a small teaching session",
+      "translation_pt": "tutorial / sessão de orientação",
+      "example_en": "Weekly tutorials support student learning.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 161,
+      "word": "faculty",
+      "pos": "noun",
+      "definition_en": "the teaching staff of a university",
+      "translation_pt": "corpo docente",
+      "example_en": "The faculty includes leading researchers.",
+      "domain": "education",
+      "level": "B2",
+      "note_pt": "Em PT-MZ, 'faculdade' refere-se à divisão (Faculdade de Letras), enquanto em EN 'faculty' é o staff."
+    },
+    {
+      "id": 162,
+      "word": "alumni",
+      "pos": "noun",
+      "definition_en": "former students of a school",
+      "translation_pt": "antigos alunos",
+      "example_en": "The alumni network supports students.",
+      "domain": "education",
+      "level": "B2",
+      "note_pt": "Plural masculino. Singular: 'alumnus'. Feminino: 'alumna'/'alumnae'."
+    },
+    {
+      "id": 163,
+      "word": "plagiarism",
+      "pos": "noun",
+      "definition_en": "using others' work without credit",
+      "translation_pt": "plágio",
+      "example_en": "Plagiarism can lead to expulsion.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 164,
+      "word": "citation",
+      "pos": "noun",
+      "definition_en": "a reference to another work",
+      "translation_pt": "citação",
+      "example_en": "Every claim needs a proper citation.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 165,
+      "word": "bibliography",
+      "pos": "noun",
+      "definition_en": "a list of works cited",
+      "translation_pt": "bibliografia",
+      "example_en": "The bibliography lists 80 sources.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 166,
+      "word": "peer-reviewed",
+      "pos": "adjective",
+      "definition_en": "evaluated by other experts",
+      "translation_pt": "revista por pares",
+      "example_en": "Cite only peer-reviewed sources.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 167,
+      "word": "rigour",
+      "pos": "noun",
+      "definition_en": "thoroughness and accuracy",
+      "translation_pt": "rigor",
+      "example_en": "Academic rigour is essential.",
+      "domain": "education",
+      "level": "B2",
+      "note_pt": "Spelling: 'rigour' (BE), 'rigor' (AE)."
+    },
+    {
+      "id": 168,
+      "word": "scholar",
+      "pos": "noun",
+      "definition_en": "a specialist in an academic subject",
+      "translation_pt": "académico / erudito",
+      "example_en": "Scholars from across Africa attended.",
+      "domain": "education",
+      "level": "B2"
+    },
+    {
+      "id": 169,
+      "word": "seminal",
+      "pos": "adjective",
+      "definition_en": "strongly influencing later developments",
+      "translation_pt": "seminal / fundador",
+      "example_en": "His seminal paper changed the field.",
+      "domain": "education",
+      "level": "C1"
+    },
+    {
+      "id": 170,
+      "word": "interdisciplinary",
+      "pos": "adjective",
+      "definition_en": "involving multiple fields",
+      "translation_pt": "interdisciplinar",
+      "example_en": "Climate research is interdisciplinary.",
+      "domain": "education",
+      "level": "C1"
+    },
+    {
+      "id": 171,
+      "word": "disease",
+      "pos": "noun",
+      "definition_en": "an illness",
+      "translation_pt": "doença",
+      "example_en": "Malaria is a preventable disease.",
+      "domain": "health",
+      "level": "B1",
+      "moz_example": "Malaria remains a major health challenge in Mozambique."
+    },
+    {
+      "id": 172,
+      "word": "epidemic",
+      "pos": "noun",
+      "definition_en": "widespread occurrence of a disease",
+      "translation_pt": "epidemia",
+      "example_en": "The cholera epidemic was contained quickly.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 173,
+      "word": "pandemic",
+      "pos": "noun",
+      "definition_en": "a disease across many countries",
+      "translation_pt": "pandemia",
+      "example_en": "COVID-19 was declared a pandemic in 2020.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 174,
+      "word": "vaccine",
+      "pos": "noun",
+      "definition_en": "a substance that protects against disease",
+      "translation_pt": "vacina",
+      "example_en": "Vaccines have eradicated several diseases.",
+      "domain": "health",
+      "level": "B1",
+      "word_family": [
+        "vaccinate",
+        "vaccination"
+      ]
+    },
+    {
+      "id": 175,
+      "word": "immunity",
+      "pos": "noun",
+      "definition_en": "the body's ability to resist disease",
+      "translation_pt": "imunidade",
+      "example_en": "Vaccination builds immunity.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 176,
+      "word": "symptom",
+      "pos": "noun",
+      "definition_en": "a sign of an illness",
+      "translation_pt": "sintoma",
+      "example_en": "Fever is a common symptom.",
+      "domain": "health",
+      "level": "B1"
+    },
+    {
+      "id": 177,
+      "word": "diagnosis",
+      "pos": "noun",
+      "definition_en": "identification of a disease",
+      "translation_pt": "diagnóstico",
+      "example_en": "Early diagnosis saves lives.",
+      "domain": "health",
+      "level": "B2",
+      "note_pt": "Plural irregular: 'diagnoses'."
+    },
+    {
+      "id": 178,
+      "word": "treatment",
+      "pos": "noun",
+      "definition_en": "medical care for a condition",
+      "translation_pt": "tratamento",
+      "example_en": "Treatment is now widely available.",
+      "domain": "health",
+      "level": "B1"
+    },
+    {
+      "id": 179,
+      "word": "prevention",
+      "pos": "noun",
+      "definition_en": "the act of stopping something happening",
+      "translation_pt": "prevenção",
+      "example_en": "Prevention is better than cure.",
+      "domain": "health",
+      "level": "B1"
+    },
+    {
+      "id": 180,
+      "word": "nutrition",
+      "pos": "noun",
+      "definition_en": "the process of getting food for health",
+      "translation_pt": "nutrição",
+      "example_en": "Good nutrition supports child development.",
+      "domain": "health",
+      "level": "B1"
+    },
+    {
+      "id": 181,
+      "word": "malnutrition",
+      "pos": "noun",
+      "definition_en": "lack of proper nutrition",
+      "translation_pt": "desnutrição",
+      "example_en": "Malnutrition affects rural children disproportionately.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 182,
+      "word": "mortality",
+      "pos": "noun",
+      "definition_en": "the rate of death",
+      "translation_pt": "mortalidade",
+      "example_en": "Child mortality has decreased over the decades.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 183,
+      "word": "morbidity",
+      "pos": "noun",
+      "definition_en": "the rate of disease",
+      "translation_pt": "morbilidade",
+      "example_en": "Morbidity rates inform health planning.",
+      "domain": "health",
+      "level": "C1"
+    },
+    {
+      "id": 184,
+      "word": "clinical",
+      "pos": "adjective",
+      "definition_en": "relating to medical practice",
+      "translation_pt": "clínico",
+      "example_en": "A clinical trial tests new drugs.",
+      "domain": "health",
+      "level": "B2"
+    },
+    {
+      "id": 185,
+      "word": "public health",
+      "pos": "phrase",
+      "definition_en": "the health of populations",
+      "translation_pt": "saúde pública",
+      "example_en": "Public health policy improved access.",
+      "domain": "health",
+      "level": "B1"
+    },
+    {
+      "id": 186,
+      "word": "environment",
+      "pos": "noun",
+      "definition_en": "the natural world",
+      "translation_pt": "ambiente / meio ambiente",
+      "example_en": "Protecting the environment is urgent.",
+      "domain": "environment",
+      "level": "B1",
+      "word_family": [
+        "environmental"
+      ]
+    },
+    {
+      "id": 187,
+      "word": "environmental",
+      "pos": "adjective",
+      "definition_en": "relating to the environment",
+      "translation_pt": "ambiental",
+      "example_en": "Environmental impact must be assessed.",
+      "domain": "environment",
+      "level": "B1"
+    },
+    {
+      "id": 188,
+      "word": "climate",
+      "pos": "noun",
+      "definition_en": "weather conditions over a long period",
+      "translation_pt": "clima",
+      "example_en": "Climate change affects rainfall patterns.",
+      "domain": "environment",
+      "level": "B1"
+    },
+    {
+      "id": 189,
+      "word": "emission",
+      "pos": "noun",
+      "definition_en": "release of gas into the air",
+      "translation_pt": "emissão",
+      "example_en": "Carbon emissions must be reduced.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 190,
+      "word": "renewable",
+      "pos": "adjective",
+      "definition_en": "able to be replaced naturally",
+      "translation_pt": "renovável",
+      "example_en": "Solar power is a renewable energy source.",
+      "domain": "environment",
+      "level": "B1"
+    },
+    {
+      "id": 191,
+      "word": "conservation",
+      "pos": "noun",
+      "definition_en": "protection of nature",
+      "translation_pt": "conservação",
+      "example_en": "Conservation efforts protect Gorongosa Park.",
+      "domain": "environment",
+      "level": "B2",
+      "moz_example": "Conservation efforts in Gorongosa National Park have restored wildlife."
+    },
+    {
+      "id": 192,
+      "word": "biodiversity",
+      "pos": "noun",
+      "definition_en": "variety of plant and animal life",
+      "translation_pt": "biodiversidade",
+      "example_en": "Mozambique's biodiversity is remarkable.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 193,
+      "word": "ecosystem",
+      "pos": "noun",
+      "definition_en": "a community of organisms and their environment",
+      "translation_pt": "ecossistema",
+      "example_en": "Mangrove ecosystems protect coastlines.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 194,
+      "word": "deforestation",
+      "pos": "noun",
+      "definition_en": "removal of forests",
+      "translation_pt": "desflorestação",
+      "example_en": "Deforestation accelerates climate change.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 195,
+      "word": "habitat",
+      "pos": "noun",
+      "definition_en": "the natural home of an organism",
+      "translation_pt": "habitat",
+      "example_en": "The reserve protects elephant habitat.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 196,
+      "word": "resilience",
+      "pos": "noun",
+      "definition_en": "ability to recover from difficulty",
+      "translation_pt": "resiliência",
+      "example_en": "Climate resilience requires investment.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 197,
+      "word": "adapt",
+      "pos": "verb",
+      "definition_en": "to change to suit new conditions",
+      "translation_pt": "adaptar",
+      "example_en": "Communities must adapt to changing weather.",
+      "domain": "environment",
+      "level": "B1",
+      "word_family": [
+        "adaptation"
+      ]
+    },
+    {
+      "id": 198,
+      "word": "adaptation",
+      "pos": "noun",
+      "definition_en": "the process of adapting",
+      "translation_pt": "adaptação",
+      "example_en": "Adaptation strategies vary by region.",
+      "domain": "environment",
+      "level": "B2"
+    },
+    {
+      "id": 199,
+      "word": "mitigate",
+      "pos": "verb",
+      "definition_en": "to reduce the severity of",
+      "translation_pt": "mitigar",
+      "example_en": "Mitigate the impact of floods through planning.",
+      "domain": "environment",
+      "level": "C1",
+      "word_family": [
+        "mitigation"
+      ]
+    },
+    {
+      "id": 200,
+      "word": "mitigation",
+      "pos": "noun",
+      "definition_en": "action to reduce severity",
+      "translation_pt": "mitigação",
+      "example_en": "Mitigation strategies must be funded.",
+      "domain": "environment",
+      "level": "C1"
+    }
+  ]
+}

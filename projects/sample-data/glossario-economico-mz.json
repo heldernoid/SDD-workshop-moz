@@ -1,0 +1,954 @@
+{
+  "version": "1.0",
+  "language": "pt-MZ",
+  "title": "Glossário de Termos Económicos de Moçambique",
+  "description": "100 termos económicos em português de Moçambique, com definição simples, exemplo contextualizado para a realidade moçambicana, e equivalente em inglês. Útil para estudantes, jornalistas, e cidadãos que querem perceber notícias económicas e fontes do Banco de Moçambique.",
+  "schema": {
+    "id": "Identificador único",
+    "term_pt": "Termo em português de Moçambique",
+    "term_en": "Equivalente em inglês",
+    "definition_pt": "Definição em PT-MZ simples",
+    "moz_example": "Exemplo contextualizado para Moçambique",
+    "category": "Categoria temática",
+    "level": "basico, intermedio ou avancado"
+  },
+  "categories": [
+    {
+      "id": "geral",
+      "title_pt": "Conceitos gerais"
+    },
+    {
+      "id": "macro_moz",
+      "title_pt": "Macroeconomia de Moçambique"
+    },
+    {
+      "id": "financas_pessoais",
+      "title_pt": "Finanças pessoais e impostos"
+    },
+    {
+      "id": "avancado",
+      "title_pt": "Conceitos avançados"
+    }
+  ],
+  "levels": [
+    "basico",
+    "intermedio",
+    "avancado"
+  ],
+  "stats": {
+    "total_entries": 100,
+    "by_category": {
+      "geral": 25,
+      "macro_moz": 30,
+      "financas_pessoais": 25,
+      "avancado": 20
+    },
+    "by_level": {
+      "basico": 36,
+      "intermedio": 35,
+      "avancado": 29
+    }
+  },
+  "entries": [
+    {
+      "id": 1,
+      "term_pt": "PIB (Produto Interno Bruto)",
+      "term_en": "GDP (Gross Domestic Product)",
+      "definition_pt": "Valor total de todos os bens e serviços produzidos num país durante um período (geralmente um ano ou trimestre).",
+      "moz_example": "O PIB de Moçambique no terceiro trimestre de 2025 contraiu 0,85% segundo o Banco de Moçambique.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 2,
+      "term_pt": "Inflação",
+      "term_en": "Inflation",
+      "definition_pt": "Subida geral e contínua dos preços dos bens e serviços ao longo do tempo, que reduz o poder de compra do dinheiro.",
+      "moz_example": "A inflação anual em Moçambique fixou-se em 3,37% em Março de 2026, puxada pelos preços dos alimentos.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 3,
+      "term_pt": "Deflação",
+      "term_en": "Deflation",
+      "definition_pt": "Descida geral e prolongada dos preços. Apesar de parecer boa para os consumidores, pode travar a economia porque adia consumo e investimento.",
+      "moz_example": "A deflação não é um problema actual em Moçambique mas afectou o Japão durante décadas.",
+      "category": "geral",
+      "level": "intermedio"
+    },
+    {
+      "id": 4,
+      "term_pt": "Recessão",
+      "term_en": "Recession",
+      "definition_pt": "Período de contracção da economia, tradicionalmente definido por dois trimestres consecutivos de PIB negativo.",
+      "moz_example": "Se o PIB moçambicano continuar negativo no próximo trimestre, o país entra em recessão técnica.",
+      "category": "geral",
+      "level": "intermedio"
+    },
+    {
+      "id": 5,
+      "term_pt": "Taxa de juro",
+      "term_en": "Interest rate",
+      "definition_pt": "Custo de pedir dinheiro emprestado, expresso em percentagem. Quando depositas, é o que o banco te paga.",
+      "moz_example": "A taxa de juro do crédito à habitação em Moçambique segue a Prime Rate, actualmente em 15,50%.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 6,
+      "term_pt": "Oferta",
+      "term_en": "Supply",
+      "definition_pt": "Quantidade de um bem ou serviço que os produtores estão dispostos a vender a determinado preço.",
+      "moz_example": "Quando aumenta a oferta de tomate no mercado de Xipamanine, o preço desce.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 7,
+      "term_pt": "Procura",
+      "term_en": "Demand",
+      "definition_pt": "Quantidade de um bem ou serviço que os consumidores estão dispostos a comprar a determinado preço.",
+      "moz_example": "Em Dezembro a procura por arroz aumenta com as festas, e os preços tendem a subir.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 8,
+      "term_pt": "Mercado",
+      "term_en": "Market",
+      "definition_pt": "Espaço (físico ou virtual) onde compradores e vendedores se encontram para trocar bens, serviços ou dinheiro.",
+      "moz_example": "O mercado do peixe em Maputo é um exemplo de mercado físico; já a BVM é um mercado financeiro.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 9,
+      "term_pt": "Bem",
+      "term_en": "Good",
+      "definition_pt": "Objecto físico que se pode comprar ou vender (arroz, telemóvel, casa).",
+      "moz_example": "O cimento é um bem essencial no sector da construção em Moçambique.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 10,
+      "term_pt": "Serviço",
+      "term_en": "Service",
+      "definition_pt": "Actividade económica que não produz um objecto físico (transporte, educação, consultoria).",
+      "moz_example": "O serviço de transporte por chapa é parte importante da economia urbana de Maputo.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 11,
+      "term_pt": "Capital",
+      "term_en": "Capital",
+      "definition_pt": "Recursos financeiros ou bens (máquinas, edifícios) usados para produzir mais riqueza.",
+      "moz_example": "Para abrir uma padaria em Beira é preciso capital inicial para máquinas, espaço e stock.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 12,
+      "term_pt": "Lucro",
+      "term_en": "Profit",
+      "definition_pt": "Diferença positiva entre receitas e custos numa actividade económica.",
+      "moz_example": "Se vendeste 100 sacos de carvão a 500 MT cada e gastaste 30 000 MT, o teu lucro é de 20 000 MT.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 13,
+      "term_pt": "Receita",
+      "term_en": "Revenue",
+      "definition_pt": "Total do dinheiro que entra numa empresa ou no governo num período, antes de descontar custos.",
+      "moz_example": "A receita do Governo moçambicano em 2024 dependeu fortemente das exportações de gás e carvão.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 14,
+      "term_pt": "Custo",
+      "term_en": "Cost",
+      "definition_pt": "Valor gasto para produzir ou adquirir um bem ou serviço.",
+      "moz_example": "O custo de produção de uma garrafa de água engarrafada inclui água, plástico, energia e transporte.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 15,
+      "term_pt": "Despesa",
+      "term_en": "Expenditure",
+      "definition_pt": "Saída de dinheiro para pagar bens, serviços ou obrigações.",
+      "moz_example": "A despesa familiar média em Maputo é dominada pela alimentação e renda.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 16,
+      "term_pt": "Poupança",
+      "term_en": "Savings",
+      "definition_pt": "Parte do rendimento que não é consumida e é guardada para uso futuro.",
+      "moz_example": "Muitas famílias moçambicanas usam o xitique como forma colectiva de poupança.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 17,
+      "term_pt": "Investimento",
+      "term_en": "Investment",
+      "definition_pt": "Aplicação de dinheiro com expectativa de obter retorno futuro (empresa, imóveis, acções).",
+      "moz_example": "O investimento em painéis solares tem crescido em Moçambique, especialmente em zonas rurais sem rede eléctrica.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 18,
+      "term_pt": "Crescimento económico",
+      "term_en": "Economic growth",
+      "definition_pt": "Aumento da produção de bens e serviços de um país ao longo do tempo, geralmente medido pela variação do PIB.",
+      "moz_example": "Moçambique teve crescimento económico forte na década de 2010, impulsionado por gás e carvão.",
+      "category": "geral",
+      "level": "intermedio"
+    },
+    {
+      "id": 19,
+      "term_pt": "Desemprego",
+      "term_en": "Unemployment",
+      "definition_pt": "Situação de pessoas em idade de trabalhar que procuram emprego mas não o encontram.",
+      "moz_example": "O desemprego juvenil é um dos principais desafios sociais de Moçambique.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 20,
+      "term_pt": "Taxa de câmbio",
+      "term_en": "Exchange rate",
+      "definition_pt": "Quantos meticais são necessários para comprar uma unidade de outra moeda (USD, EUR, ZAR).",
+      "moz_example": "A taxa de câmbio MZN/USD ronda os 64 MT por dólar em 2026, segundo o Banco de Moçambique.",
+      "category": "geral",
+      "level": "intermedio"
+    },
+    {
+      "id": 21,
+      "term_pt": "Moeda",
+      "term_en": "Currency",
+      "definition_pt": "Meio de pagamento oficial usado num país (em Moçambique, o Metical).",
+      "moz_example": "O Metical é a moeda oficial de Moçambique desde 16 de Junho de 1980.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 22,
+      "term_pt": "Importação",
+      "term_en": "Import",
+      "definition_pt": "Bens ou serviços comprados ao estrangeiro.",
+      "moz_example": "Moçambique importa a maioria do trigo que consome, principalmente da Rússia e Argentina.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 23,
+      "term_pt": "Exportação",
+      "term_en": "Export",
+      "definition_pt": "Bens ou serviços vendidos ao estrangeiro.",
+      "moz_example": "As principais exportações moçambicanas são gás natural, carvão, alumínio e camarão.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 24,
+      "term_pt": "Balança comercial",
+      "term_en": "Trade balance",
+      "definition_pt": "Diferença entre o valor das exportações e o valor das importações de um país. Positiva (superavit) se exporta mais; negativa (deficit) se importa mais.",
+      "moz_example": "Moçambique tem geralmente balança comercial deficitária, importando mais do que exporta.",
+      "category": "geral",
+      "level": "intermedio"
+    },
+    {
+      "id": 25,
+      "term_pt": "Concorrência",
+      "term_en": "Competition",
+      "definition_pt": "Disputa entre empresas pelo mesmo mercado, que tende a baixar preços e melhorar qualidade.",
+      "moz_example": "A entrada de novos operadores no mercado de internet móvel aumentou a concorrência em Moçambique.",
+      "category": "geral",
+      "level": "basico"
+    },
+    {
+      "id": 26,
+      "term_pt": "Banco de Moçambique (BCM)",
+      "term_en": "Central Bank of Mozambique",
+      "definition_pt": "Banco central do país, criado a 17 de Maio de 1975. Define a política monetária, emite o Metical, regula o sistema bancário e gere as reservas internacionais.",
+      "moz_example": "O Banco de Moçambique é a autoridade que emite o Metical e fixa a taxa MIMO.",
+      "category": "macro_moz",
+      "level": "basico"
+    },
+    {
+      "id": 27,
+      "term_pt": "Taxa MIMO",
+      "term_en": "Monetary Policy Rate",
+      "definition_pt": "Taxa de juro de política monetária do Banco de Moçambique, introduzida a 13 de Fevereiro de 2017. É o principal instrumento para controlar a inflação. MIMO significa Mercado Monetário Interbancário de Moçambique.",
+      "moz_example": "Em 2026, o CPMO manteve a taxa MIMO em 9,25% para apoiar o controlo da inflação.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 28,
+      "term_pt": "CPMO",
+      "term_en": "Monetary Policy Committee",
+      "definition_pt": "Comité de Política Monetária do Banco de Moçambique. Reúne-se periodicamente para decidir a taxa MIMO e outras medidas monetárias. Composto pelo Governador, Vice-Governador e Administradores.",
+      "moz_example": "O CPMO publica um comunicado de imprensa após cada reunião com a decisão sobre a taxa MIMO.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 29,
+      "term_pt": "FPC (Facilidade Permanente de Cedência)",
+      "term_en": "Standing Lending Facility",
+      "definition_pt": "Mecanismo pelo qual o Banco de Moçambique empresta dinheiro overnight aos bancos comerciais para cobrirem défices de liquidez. A taxa da FPC é a mais alta do mercado interbancário.",
+      "moz_example": "Quando um banco comercial em Moçambique fica sem liquidez no fim do dia, recorre à FPC para cobrir o gap.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 30,
+      "term_pt": "FPD (Facilidade Permanente de Depósitos)",
+      "term_en": "Standing Deposit Facility",
+      "definition_pt": "Mecanismo pelo qual os bancos comerciais depositam excessos diários de liquidez no Banco de Moçambique. A taxa da FPD é a mais baixa do mercado interbancário.",
+      "moz_example": "Em dias com excesso de liquidez no sistema, os bancos depositam o dinheiro extra na FPD junto do BCM.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 31,
+      "term_pt": "Prime Rate",
+      "term_en": "Prime Rate",
+      "definition_pt": "Taxa de juro de referência usada pelos bancos moçambicanos para créditos a clientes. Resulta da soma do Indexante Único (calculado pelo BCM) com o Prémio de Custo (definido pela AMB). Publicada mensalmente.",
+      "moz_example": "A Prime Rate em Abril de 2026 está fixada em 15,50%, e serve de base para os créditos à habitação e empresas.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 32,
+      "term_pt": "Indexante Único",
+      "term_en": "Single Index Rate",
+      "definition_pt": "Componente da Prime Rate calculada pelo Banco de Moçambique mensalmente, baseada na taxa MIMO e nas operações overnight do mercado interbancário.",
+      "moz_example": "O Indexante Único do mês de Abril foi de 9,80%, com o Prémio de Custo a acrescentar 5,70% para fechar a Prime Rate em 15,50%.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 33,
+      "term_pt": "Prémio de Custo",
+      "term_en": "Cost Premium",
+      "definition_pt": "Componente da Prime Rate definida pela Associação Moçambicana de Bancos (AMB). Reflecte os custos operacionais dos bancos comerciais.",
+      "moz_example": "O Prémio de Custo soma-se ao Indexante Único para formar a Prime Rate mensal.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 34,
+      "term_pt": "AMB",
+      "term_en": "Mozambican Banking Association",
+      "definition_pt": "Associação Moçambicana de Bancos. Representa os bancos comerciais e participa no cálculo da Prime Rate (componente Prémio de Custo).",
+      "moz_example": "A AMB e o Banco de Moçambique publicam mensalmente a Prime Rate em conjunto.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 35,
+      "term_pt": "Coeficiente de reservas obrigatórias",
+      "term_en": "Reserve requirement",
+      "definition_pt": "Percentagem dos depósitos que os bancos comerciais são obrigados a manter parados no Banco de Moçambique, sem poder usar para empréstimos.",
+      "moz_example": "Em Janeiro de 2023 o coeficiente em moeda nacional foi aumentado de 10,5% para 28% para absorver liquidez excessiva.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 36,
+      "term_pt": "MMI (Mercado Monetário Interbancário)",
+      "term_en": "Interbank Money Market",
+      "definition_pt": "Mercado onde os bancos comerciais emprestam dinheiro entre si por curtos prazos (geralmente overnight). É o canal por onde a taxa MIMO se transmite à economia.",
+      "moz_example": "As operações do MMI em Moçambique são overnight e moldam as taxas a que os bancos emprestam aos clientes.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 37,
+      "term_pt": "Bilhete do Tesouro",
+      "term_en": "Treasury Bill",
+      "definition_pt": "Título de dívida de curto prazo (até 1 ano) emitido pelo governo moçambicano para financiar despesa pública. Vendido com desconto e reembolsado pelo valor nominal.",
+      "moz_example": "Os Bilhetes do Tesouro moçambicanos a 91 dias são procurados por bancos como aplicação segura.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 38,
+      "term_pt": "Obrigação do Tesouro (OT)",
+      "term_en": "Treasury Bond",
+      "definition_pt": "Título de dívida de médio/longo prazo (acima de 1 ano) emitido pelo Estado moçambicano. Paga juros periódicos.",
+      "moz_example": "Comprar uma OT a 5 anos garante um rendimento anual de juros até ao vencimento.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 39,
+      "term_pt": "BVM (Bolsa de Valores de Moçambique)",
+      "term_en": "Mozambique Stock Exchange",
+      "definition_pt": "Bolsa de valores nacional, sediada em Maputo. Negocia acções, obrigações de tesouro, obrigações corporativas e papel comercial.",
+      "moz_example": "Empresas como CDM e HCB estão cotadas na BVM, permitindo aos cidadãos investirem nelas.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 40,
+      "term_pt": "Acção",
+      "term_en": "Share / Stock",
+      "definition_pt": "Pequena fracção do capital de uma empresa. Quem compra acções torna-se sócio e tem direito a parte dos lucros (dividendos).",
+      "moz_example": "Comprar acções da CDM na BVM dá direito a dividendos quando a empresa tem lucros.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 41,
+      "term_pt": "METIX",
+      "term_en": "Mozambique Instant Payments System",
+      "definition_pt": "Sistema de Pagamentos Instantâneos de Moçambique, lançado pelo Banco de Moçambique. Permite transferências em segundos entre contas bancárias.",
+      "moz_example": "Com o METIX é possível enviar meticais entre contas de bancos diferentes em poucos segundos.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 42,
+      "term_pt": "Reservas internacionais",
+      "term_en": "Foreign exchange reserves",
+      "definition_pt": "Stock de moeda estrangeira (USD, EUR, ouro) detido pelo Banco de Moçambique para pagar importações e estabilizar o Metical.",
+      "moz_example": "As reservas internacionais de Moçambique servem para pagar importações de combustíveis e medicamentos.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 43,
+      "term_pt": "Dívida pública",
+      "term_en": "Public debt",
+      "definition_pt": "Dinheiro que o Estado moçambicano deve a credores nacionais e estrangeiros (bancos, organismos como o FMI, investidores em obrigações).",
+      "moz_example": "A dívida pública moçambicana é uma preocupação macroeconómica recorrente, com desafios na sua sustentabilidade.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 44,
+      "term_pt": "Dívida soberana",
+      "term_en": "Sovereign debt",
+      "definition_pt": "Dívida emitida ou garantida por um Estado, geralmente em mercados internacionais. Em Moçambique ficou famosa pelo escândalo das 'dívidas ocultas'.",
+      "moz_example": "O caso das dívidas ocultas afectou a notação de crédito soberano de Moçambique durante anos.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 45,
+      "term_pt": "Dívidas ocultas",
+      "term_en": "Hidden debts",
+      "definition_pt": "Empréstimos contraídos por empresas estatais moçambicanas (Proindicus, Ematum, MAM) entre 2013-2014 sem aprovação parlamentar, no valor de cerca de 2 mil milhões USD. Causaram crise de dívida quando foram reveladas em 2016.",
+      "moz_example": "As dívidas ocultas levaram a notação de Moçambique a default e à suspensão do apoio do FMI.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 46,
+      "term_pt": "FMI (Fundo Monetário Internacional)",
+      "term_en": "International Monetary Fund (IMF)",
+      "definition_pt": "Organização internacional que apoia países com problemas de balança de pagamentos. Moçambique tem programas com o FMI desde os anos 1980.",
+      "moz_example": "O actual programa do FMI com Moçambique inclui apoio orçamental e reformas estruturais.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 47,
+      "term_pt": "Banco Mundial",
+      "term_en": "World Bank",
+      "definition_pt": "Organização internacional que financia projectos de desenvolvimento em países em desenvolvimento. Em Moçambique financia infraestruturas, saúde e educação.",
+      "moz_example": "O Banco Mundial financiou a reabilitação de várias estradas em Moçambique nos últimos anos.",
+      "category": "macro_moz",
+      "level": "basico"
+    },
+    {
+      "id": 48,
+      "term_pt": "SADC",
+      "term_en": "Southern African Development Community",
+      "definition_pt": "Comunidade para o Desenvolvimento da África Austral, bloco regional com 16 países (incluindo Moçambique). Promove integração económica regional.",
+      "moz_example": "A pertença à SADC permite a Moçambique exportar produtos com tarifas reduzidas para a região.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 49,
+      "term_pt": "Investimento Directo Estrangeiro (IDE)",
+      "term_en": "Foreign Direct Investment (FDI)",
+      "definition_pt": "Aplicação de capital por empresas estrangeiras em Moçambique, geralmente para criar ou expandir negócios.",
+      "moz_example": "A descoberta de gás na Bacia do Rovuma atraiu IDE significativo da TotalEnergies e ExxonMobil para Cabo Delgado.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 50,
+      "term_pt": "Salário Mínimo Nacional",
+      "term_en": "National Minimum Wage",
+      "definition_pt": "Valor mínimo legal que um trabalhador pode receber em Moçambique. Varia por sector económico, definido por negociação tripartida.",
+      "moz_example": "O salário mínimo do sector da agricultura é tradicionalmente o mais baixo entre os vários sectores moçambicanos.",
+      "category": "macro_moz",
+      "level": "basico"
+    },
+    {
+      "id": 51,
+      "term_pt": "Gás Natural Liquefeito (GNL)",
+      "term_en": "Liquefied Natural Gas (LNG)",
+      "definition_pt": "Gás natural arrefecido a estado líquido para transporte por navio. Em Moçambique, motor de grandes projectos em Cabo Delgado e Inhambane.",
+      "moz_example": "O projecto de GNL da TotalEnergies em Cabo Delgado é o maior investimento estrangeiro privado já feito em África.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 52,
+      "term_pt": "Megaprojecto",
+      "term_en": "Megaproject",
+      "definition_pt": "Grande projecto de investimento (acima de 500 milhões USD), tipicamente em recursos naturais. Em Moçambique referem-se sobretudo a alumínio (Mozal), carvão (Vale) e gás (TotalEnergies).",
+      "moz_example": "Os megaprojectos contribuem para o PIB mas têm sido criticados por gerarem poucos empregos directos para moçambicanos.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 53,
+      "term_pt": "Receita extractiva",
+      "term_en": "Extractive revenue",
+      "definition_pt": "Receita do Estado proveniente da exploração de recursos naturais (gás, carvão, areias pesadas) através de impostos e royalties.",
+      "moz_example": "A receita extractiva é volátil porque depende dos preços internacionais do gás e do carvão.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 54,
+      "term_pt": "Choque externo",
+      "term_en": "External shock",
+      "definition_pt": "Acontecimento internacional que afecta a economia de um país sem este o controlar (subida do preço do petróleo, pandemia, guerra).",
+      "moz_example": "A invasão russa da Ucrânia foi um choque externo que subiu os preços de alimentos e fertilizantes em Moçambique.",
+      "category": "macro_moz",
+      "level": "avancado"
+    },
+    {
+      "id": 55,
+      "term_pt": "Ciclone tropical",
+      "term_en": "Tropical cyclone",
+      "definition_pt": "Tempestade tropical que afecta regularmente Moçambique. Tem impacto económico significativo (Idai 2019, Kenneth 2019, Freddy 2023) por destruição de infraestruturas e culturas.",
+      "moz_example": "O ciclone Idai em 2019 causou perdas estimadas em 2 mil milhões USD a Moçambique, sobretudo na Beira.",
+      "category": "macro_moz",
+      "level": "intermedio"
+    },
+    {
+      "id": 56,
+      "term_pt": "IRPS",
+      "term_en": "Personal Income Tax",
+      "definition_pt": "Imposto sobre o Rendimento de Pessoas Singulares. Aplica-se a salários e outros rendimentos pessoais em Moçambique. Tem escalões progressivos.",
+      "moz_example": "O IRPS é descontado mensalmente do teu salário pelo empregador antes de te pagar o líquido.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 57,
+      "term_pt": "IRPC",
+      "term_en": "Corporate Income Tax",
+      "definition_pt": "Imposto sobre o Rendimento de Pessoas Colectivas. Aplica-se aos lucros das empresas em Moçambique, com taxa geral de 32%.",
+      "moz_example": "Uma pequena empresa em Maputo paga IRPC sobre o seu lucro anual, depois de descontar despesas elegíveis.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 58,
+      "term_pt": "IVA",
+      "term_en": "VAT (Value Added Tax)",
+      "definition_pt": "Imposto sobre o Valor Acrescentado. Em Moçambique a taxa geral é de 17%, aplicada a quase todos os bens e serviços.",
+      "moz_example": "Quando compras um telemóvel por 1 170 MT no shopping, 170 MT são IVA que vai para o Estado.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 59,
+      "term_pt": "NUIT",
+      "term_en": "Tax Identification Number",
+      "definition_pt": "Número Único de Identificação Tributária. Identifica cada contribuinte (pessoa ou empresa) em Moçambique. Tem 9 dígitos.",
+      "moz_example": "Sem NUIT não consegues abrir uma conta bancária nem celebrar um contrato de trabalho formal em Moçambique.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 60,
+      "term_pt": "Segurança Social (INSS)",
+      "term_en": "Social Security Contributions",
+      "definition_pt": "Contribuição obrigatória paga ao Instituto Nacional de Segurança Social. O trabalhador desconta 3% e o empregador paga 4% sobre o salário bruto.",
+      "moz_example": "Se ganhas 20 000 MT brutos, 600 MT são para a Segurança Social e o teu empregador paga mais 800 MT.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 61,
+      "term_pt": "Salário bruto",
+      "term_en": "Gross salary",
+      "definition_pt": "Valor total do salário antes de descontos (IRPS, INSS, outros).",
+      "moz_example": "Se o teu salário bruto é 25 000 MT, o líquido pode ser cerca de 23 400 MT depois de IRPS e INSS.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 62,
+      "term_pt": "Salário líquido",
+      "term_en": "Net salary",
+      "definition_pt": "Valor que o trabalhador recebe efectivamente na conta, depois de descontos legais.",
+      "moz_example": "O salário líquido é o que importa para o orçamento da família, não o bruto.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 63,
+      "term_pt": "Crédito",
+      "term_en": "Credit / Loan",
+      "definition_pt": "Empréstimo concedido por um banco ou instituição financeira, com obrigação de devolução e pagamento de juros.",
+      "moz_example": "Comprar uma casa em Maputo geralmente exige crédito habitação a 20-25 anos.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 64,
+      "term_pt": "Crédito habitação",
+      "term_en": "Mortgage",
+      "definition_pt": "Empréstimo a longo prazo (15-30 anos) específico para comprar ou construir casa. A própria casa serve de garantia.",
+      "moz_example": "O crédito habitação em Moçambique tem taxas de juro acima de 17% em 2026, dificultando o acesso.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 65,
+      "term_pt": "Conta corrente",
+      "term_en": "Current account / Checking account",
+      "definition_pt": "Conta bancária para gerir o dia-a-dia (depósitos, transferências, pagamentos). Não rende juros significativos.",
+      "moz_example": "Para receberes o ordenado precisas de uma conta corrente num banco como BIM, Standard ou Millennium.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 66,
+      "term_pt": "Conta poupança",
+      "term_en": "Savings account",
+      "definition_pt": "Conta bancária para guardar dinheiro com remuneração de juros. Geralmente com restrições nos levantamentos.",
+      "moz_example": "Abrir uma conta poupança no BIM permite ganhar juros sobre o dinheiro que não estás a usar.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 67,
+      "term_pt": "Depósito a prazo",
+      "term_en": "Time deposit / Fixed deposit",
+      "definition_pt": "Aplicação financeira em que se compromete dinheiro num banco por um período fixo (3, 6, 12 meses) em troca de juros mais altos.",
+      "moz_example": "Um depósito a prazo de 12 meses no BIM pode render juros bem acima de uma conta poupança.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 68,
+      "term_pt": "Juro simples",
+      "term_en": "Simple interest",
+      "definition_pt": "Juro calculado apenas sobre o capital inicial, sem reinvestimento dos juros.",
+      "moz_example": "Se aplicares 10 000 MT a juro simples de 10% durante 3 anos, ganhas 3 000 MT no total.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 69,
+      "term_pt": "Juro composto",
+      "term_en": "Compound interest",
+      "definition_pt": "Juro calculado sobre o capital mais os juros já acumulados. Faz o dinheiro crescer mais depressa que juro simples.",
+      "moz_example": "10 000 MT a juro composto de 10% ao ano transformam-se em 13 310 MT após 3 anos (vs 13 000 com juro simples).",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 70,
+      "term_pt": "Spread bancário",
+      "term_en": "Bank spread",
+      "definition_pt": "Diferença entre a taxa de juro a que o banco empresta e a que paga aos depositantes. É a margem de lucro do banco.",
+      "moz_example": "Se o BIM paga 8% nos depósitos e cobra 18% no crédito, o spread é de 10 pontos percentuais.",
+      "category": "financas_pessoais",
+      "level": "avancado"
+    },
+    {
+      "id": 71,
+      "term_pt": "Spread de risco",
+      "term_en": "Risk spread",
+      "definition_pt": "Margem adicional acima da Prime Rate que o banco cobra com base no perfil de risco do cliente. Quanto maior o risco percebido, maior o spread.",
+      "moz_example": "Um cliente com bom histórico em Moçambique pode ter um spread de risco de 2%, enquanto outro pode pagar 6%.",
+      "category": "financas_pessoais",
+      "level": "avancado"
+    },
+    {
+      "id": 72,
+      "term_pt": "Mobile Money",
+      "term_en": "Mobile Money",
+      "definition_pt": "Sistema de transferência de dinheiro pelo telemóvel sem precisar de conta bancária. Em Moçambique os principais são M-Pesa (Vodacom) e e-Mola (Movitel).",
+      "moz_example": "O M-Pesa em Moçambique é muito usado para pagamentos do dia-a-dia, especialmente fora dos centros urbanos.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 73,
+      "term_pt": "M-Pesa",
+      "term_en": "M-Pesa",
+      "definition_pt": "Serviço de mobile money operado pela Vodacom em Moçambique. Permite transferências, pagamentos e poupança via telemóvel.",
+      "moz_example": "Pagar o chapa ou recarregar saldo via M-Pesa tornou-se rotineiro em Maputo.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 74,
+      "term_pt": "Cartão de débito",
+      "term_en": "Debit card",
+      "definition_pt": "Cartão associado à conta bancária. Quando pagas, o dinheiro sai imediatamente da tua conta.",
+      "moz_example": "Levantar dinheiro num ATM em Maputo com cartão de débito do BIM custa entre 0 e 50 MT dependendo do banco.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 75,
+      "term_pt": "Cartão de crédito",
+      "term_en": "Credit card",
+      "definition_pt": "Cartão que permite pagar agora e pagar ao banco depois. Cobra juros se não pagares o saldo total no prazo.",
+      "moz_example": "Os cartões de crédito em Moçambique são menos usados que os de débito, mas crescem em Maputo e Matola.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 76,
+      "term_pt": "Microcrédito",
+      "term_en": "Microcredit",
+      "definition_pt": "Empréstimos de pequeno valor para pessoas sem acesso a crédito bancário tradicional, geralmente para iniciar pequenos negócios.",
+      "moz_example": "Microbancos em Moçambique concedem microcrédito a vendedoras de mercado para comprar stock.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 77,
+      "term_pt": "Xitique",
+      "term_en": "Rotating Savings Group (ROSCA)",
+      "definition_pt": "Sistema tradicional moçambicano de poupança em grupo. Cada membro contribui um valor periódico e cada um, à vez, recebe a totalidade.",
+      "moz_example": "Num xitique de 10 pessoas com 5 000 MT por mês, cada uma recebe 50 000 MT na sua vez.",
+      "category": "financas_pessoais",
+      "level": "basico"
+    },
+    {
+      "id": 78,
+      "term_pt": "Remessa",
+      "term_en": "Remittance",
+      "definition_pt": "Dinheiro enviado por moçambicanos no estrangeiro (África do Sul, Portugal) para a família em Moçambique. Importante fonte de rendimento familiar.",
+      "moz_example": "As remessas dos mineiros moçambicanos na África do Sul sustentam muitas famílias em Inhambane e Gaza.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 79,
+      "term_pt": "Inflação alimentar",
+      "term_en": "Food inflation",
+      "definition_pt": "Variação dos preços específicos dos alimentos. Em Moçambique tem peso elevado no índice geral de preços porque alimentos representam grande parte do orçamento familiar.",
+      "moz_example": "Quando o preço do tomate, arroz e óleo sobem, a inflação alimentar puxa toda a inflação para cima.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 80,
+      "term_pt": "Cabaz básico",
+      "term_en": "Basic basket",
+      "definition_pt": "Conjunto representativo de bens essenciais (comida, transporte, energia) usado para medir o custo de vida.",
+      "moz_example": "O cabaz básico em Maputo subiu acima de 12 000 MT por mês para uma família média em 2025.",
+      "category": "financas_pessoais",
+      "level": "intermedio"
+    },
+    {
+      "id": 81,
+      "term_pt": "Política monetária",
+      "term_en": "Monetary policy",
+      "definition_pt": "Conjunto de medidas do Banco de Moçambique para controlar a quantidade de dinheiro em circulação e a inflação. Usa a taxa MIMO, FPC, FPD e reservas obrigatórias.",
+      "moz_example": "A política monetária restritiva do BCM em 2024-2025 visou trazer a inflação para um dígito.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 82,
+      "term_pt": "Política fiscal",
+      "term_en": "Fiscal policy",
+      "definition_pt": "Conjunto de decisões do Governo sobre receitas (impostos) e despesas públicas. Pode estimular ou travar a economia.",
+      "moz_example": "Aumentar despesa pública em estradas é política fiscal expansionista; aumentar IRPS é restritiva.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 83,
+      "term_pt": "Orçamento do Estado (OE)",
+      "term_en": "State Budget",
+      "definition_pt": "Documento anual aprovado pelo Parlamento que define receitas e despesas do Governo de Moçambique para o ano seguinte.",
+      "moz_example": "O OE 2026 foi aprovado pela Assembleia da República em Dezembro de 2025.",
+      "category": "avancado",
+      "level": "intermedio"
+    },
+    {
+      "id": 84,
+      "term_pt": "Défice orçamental",
+      "term_en": "Budget deficit",
+      "definition_pt": "Diferença negativa entre receitas e despesas públicas num ano. O Estado gasta mais do que arrecada e tem de recorrer a dívida.",
+      "moz_example": "Moçambique tem mantido défice orçamental, financiado por dívida interna e externa.",
+      "category": "avancado",
+      "level": "intermedio"
+    },
+    {
+      "id": 85,
+      "term_pt": "Superavit orçamental",
+      "term_en": "Budget surplus",
+      "definition_pt": "Situação em que receitas do Estado superam as despesas. Permite reduzir dívida ou poupar.",
+      "moz_example": "Um superavit orçamental é raro em Moçambique, dada a pressão sobre a despesa pública.",
+      "category": "avancado",
+      "level": "intermedio"
+    },
+    {
+      "id": 86,
+      "term_pt": "Risco fiscal",
+      "term_en": "Fiscal risk",
+      "definition_pt": "Possibilidade de o Estado não conseguir cumprir compromissos financeiros (pagar salários, dívida) por má gestão das contas públicas.",
+      "moz_example": "O agravamento do risco fiscal moçambicano em 2024-2025 limitou o espaço para novas despesas.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 87,
+      "term_pt": "Mecanismo de transmissão monetária",
+      "term_en": "Monetary transmission mechanism",
+      "definition_pt": "Forma como decisões do Banco de Moçambique sobre a taxa MIMO afectam taxas de juro do crédito, consumo, investimento e, por fim, a inflação.",
+      "moz_example": "A transmissão da MIMO à Prime Rate em Moçambique é mais eficaz na subida do que na descida, segundo analistas.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 88,
+      "term_pt": "Liquidez",
+      "term_en": "Liquidity",
+      "definition_pt": "Facilidade com que um activo pode ser convertido em dinheiro sem perder valor. Dinheiro em conta corrente é altamente líquido; um terreno é pouco líquido.",
+      "moz_example": "Um banco precisa de liquidez para responder a levantamentos diários dos clientes.",
+      "category": "avancado",
+      "level": "intermedio"
+    },
+    {
+      "id": 89,
+      "term_pt": "Solvência",
+      "term_en": "Solvency",
+      "definition_pt": "Capacidade de uma pessoa, empresa ou Estado pagar as suas dívidas no longo prazo.",
+      "moz_example": "A solvência de Moçambique é avaliada por agências como S&P e Moody's, que dão notações de crédito.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 90,
+      "term_pt": "Notação de crédito",
+      "term_en": "Credit rating",
+      "definition_pt": "Avaliação por agências internacionais (S&P, Fitch, Moody's) sobre a capacidade de um país ou empresa pagar dívidas. Vai de AAA (excelente) a D (default).",
+      "moz_example": "A notação de crédito de Moçambique é actualmente especulativa, abaixo do grau de investimento.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 91,
+      "term_pt": "Default",
+      "term_en": "Default",
+      "definition_pt": "Situação em que o devedor não consegue ou recusa pagar a dívida. Tem consequências graves no acesso a crédito futuro.",
+      "moz_example": "Moçambique entrou em default em 2017 com obrigações soberanas no contexto das dívidas ocultas.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 92,
+      "term_pt": "Reestruturação de dívida",
+      "term_en": "Debt restructuring",
+      "definition_pt": "Renegociação de condições de uma dívida (prazo, taxa de juro, valor) entre devedor e credores, para tornar o pagamento sustentável.",
+      "moz_example": "Após o default, Moçambique reestruturou a dívida das obrigações soberanas com os credores internacionais.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 93,
+      "term_pt": "Inflação subjacente",
+      "term_en": "Core inflation",
+      "definition_pt": "Variação dos preços excluindo itens muito voláteis (frutas, vegetais, combustíveis administrativos). Mede a tendência de fundo da inflação.",
+      "moz_example": "O Banco de Moçambique acompanha a inflação subjacente para identificar pressões inflacionárias estruturais.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 94,
+      "term_pt": "Pontos base",
+      "term_en": "Basis points (bps)",
+      "definition_pt": "Unidade igual a 0,01 ponto percentual. Usada para medir variações de taxas de juro com precisão. 100 bps = 1%.",
+      "moz_example": "O CPMO subiu a taxa MIMO em 300 pontos base, ou seja, de 10,25% para 13,25%.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 95,
+      "term_pt": "Operações de mercado aberto",
+      "term_en": "Open market operations",
+      "definition_pt": "Compra e venda de títulos de dívida pública pelo Banco de Moçambique para regular a liquidez do sistema bancário.",
+      "moz_example": "Quando há excesso de liquidez, o BCM vende Bilhetes do Tesouro nas operações de mercado aberto para a absorver.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 96,
+      "term_pt": "Repo",
+      "term_en": "Repo (repurchase agreement)",
+      "definition_pt": "Operação em que o Banco de Moçambique compra títulos a um banco com acordo de revenda no dia seguinte. Injecta liquidez no sistema.",
+      "moz_example": "As operações repo overnight ajudam o BCM a manter a taxa MIMO efectiva próxima da taxa MIMO oficial.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 97,
+      "term_pt": "Reverse repo",
+      "term_en": "Reverse repo",
+      "definition_pt": "Operação em que o Banco de Moçambique vende títulos a um banco com acordo de recompra no dia seguinte. Retira liquidez do sistema.",
+      "moz_example": "Um reverse repo overnight retira meticais de circulação por um dia, ajudando a controlar a inflação.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 98,
+      "term_pt": "Choque exógeno",
+      "term_en": "Exogenous shock",
+      "definition_pt": "Acontecimento externo (guerra, pandemia, ciclone) que afecta a economia sem o país poder controlar.",
+      "moz_example": "A pandemia de COVID-19 foi um choque exógeno que travou o turismo e o comércio em Moçambique.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 99,
+      "term_pt": "Curva de Phillips",
+      "term_en": "Phillips curve",
+      "definition_pt": "Relação económica entre desemprego e inflação. Tradicionalmente, baixo desemprego associa-se a maior inflação.",
+      "moz_example": "A curva de Phillips ajuda a entender porque o BCM aceita algum desemprego para conter inflação.",
+      "category": "avancado",
+      "level": "avancado"
+    },
+    {
+      "id": 100,
+      "term_pt": "Estabilidade financeira",
+      "term_en": "Financial stability",
+      "definition_pt": "Estado em que o sistema financeiro funciona normalmente, sem crises bancárias, e absorve choques sem causar danos sistémicos.",
+      "moz_example": "Preservar a estabilidade financeira é, junto com o controlo da inflação, missão central do Banco de Moçambique.",
+      "category": "avancado",
+      "level": "avancado"
+    }
+  ]
+}

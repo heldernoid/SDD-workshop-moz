@@ -1,0 +1,1908 @@
+{
+  "version": "1.0",
+  "language_code": "tso",
+  "language_name_pt": "Changana",
+  "language_name_native": "Xichangana",
+  "title": "Dataset de Aprendizagem Changana - Português",
+  "description": "Vocabulário, frases e provérbios em Changana com tradução para Português de Moçambique. Organizado por tópicos para flashcards, spaced repetition, ou apps educativas.",
+  "notes": [
+    "A grafia segue a convenção popular moçambicana presente nas fontes originais (ex: 'pswala', 'ñwana', 'tsh', 'pf'). A grafia oficial NELIMO/Xichangana padronizado pode diferir em alguns casos.",
+    "Onde a tradução é desconhecida ou duvidosa nas fontes, o campo 'changana' é null e há uma nota.",
+    "Provérbios incluem três campos: forma_oral (Changana), traducao_literal e sentido (equivalente em PT)."
+  ],
+  "topics": [
+    "saudacoes_pronomes",
+    "saudacoes_cortesias",
+    "numeros",
+    "tempo_calendario",
+    "cores",
+    "familia_pessoas",
+    "profissoes",
+    "animais",
+    "frutas",
+    "verbos",
+    "saude_documentos",
+    "matematica_geometria",
+    "proverbios"
+  ],
+  "stats": {
+    "total_entries": 237,
+    "by_topic": {
+      "saudacoes_pronomes": 6,
+      "numeros": 33,
+      "tempo_calendario": 29,
+      "cores": 11,
+      "familia_pessoas": 19,
+      "profissoes": 9,
+      "animais": 12,
+      "frutas": 7,
+      "verbos": 56,
+      "saude_documentos": 16,
+      "matematica_geometria": 11,
+      "proverbios": 15,
+      "saudacoes_cortesias": 13
+    },
+    "by_type": {
+      "pronome": 6,
+      "numero": 31,
+      "regra": 1,
+      "variacao": 1,
+      "substantivo": 11,
+      "adverbio": 4,
+      "dia_semana": 7,
+      "mes": 12,
+      "cor": 11,
+      "estado_civil": 6,
+      "identificacao": 11,
+      "profissao": 9,
+      "animal_domestico": 12,
+      "fruta": 7,
+      "verbo": 56,
+      "saude": 7,
+      "direito": 9,
+      "matematica": 11,
+      "proverbio": 15,
+      "saudacao": 6,
+      "cortesia": 1,
+      "basico": 2,
+      "tratamento": 1
+    },
+    "missing_translations": 3,
+    "missing_translation_items": [
+      {
+        "id": 71,
+        "pt": "Cinza",
+        "topic": "cores"
+      },
+      {
+        "id": 74,
+        "pt": "Amarelo",
+        "topic": "cores"
+      },
+      {
+        "id": 87,
+        "pt": "Viúvo",
+        "topic": "familia_pessoas"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": 1,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Eu",
+      "changana": "Mina"
+    },
+    {
+      "id": 2,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Tu / Você",
+      "changana": "Wena"
+    },
+    {
+      "id": 3,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Ele / Ela",
+      "changana": "Yena"
+    },
+    {
+      "id": 4,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Nós",
+      "changana": "Hina"
+    },
+    {
+      "id": 5,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Vós / Vocês",
+      "changana": "Mwina"
+    },
+    {
+      "id": 6,
+      "topic": "saudacoes_pronomes",
+      "type": "pronome",
+      "pt": "Eles / Elas",
+      "changana": "Vona"
+    },
+    {
+      "id": 7,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "0",
+      "changana": "noto",
+      "valor": 0
+    },
+    {
+      "id": 8,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "1",
+      "changana": "n'we",
+      "valor": 1
+    },
+    {
+      "id": 9,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "2",
+      "changana": "mbirhi",
+      "valor": 2
+    },
+    {
+      "id": 10,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "3",
+      "changana": "nharhu",
+      "valor": 3
+    },
+    {
+      "id": 11,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "4",
+      "changana": "mune",
+      "valor": 4
+    },
+    {
+      "id": 12,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "5",
+      "changana": "ntlhanu",
+      "valor": 5
+    },
+    {
+      "id": 13,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "6",
+      "changana": "ntsevu",
+      "valor": 6
+    },
+    {
+      "id": 14,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "7",
+      "changana": "nkombo",
+      "valor": 7
+    },
+    {
+      "id": 15,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "8",
+      "changana": "nhungu",
+      "valor": 8
+    },
+    {
+      "id": 16,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "9",
+      "changana": "nkaye",
+      "valor": 9
+    },
+    {
+      "id": 17,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "10",
+      "changana": "khume",
+      "valor": 10
+    },
+    {
+      "id": 18,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "11",
+      "changana": "khume n'we",
+      "valor": 11
+    },
+    {
+      "id": 19,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "12",
+      "changana": "khume mbirhi",
+      "valor": 12
+    },
+    {
+      "id": 20,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "13",
+      "changana": "khume nharhu",
+      "valor": 13
+    },
+    {
+      "id": 21,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "14",
+      "changana": "khume mune",
+      "valor": 14
+    },
+    {
+      "id": 22,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "15",
+      "changana": "khume ntlhanu",
+      "valor": 15
+    },
+    {
+      "id": 23,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "16",
+      "changana": "khume ntsevu",
+      "valor": 16
+    },
+    {
+      "id": 24,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "17",
+      "changana": "khume nkombo",
+      "valor": 17
+    },
+    {
+      "id": 25,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "18",
+      "changana": "khume nhungu",
+      "valor": 18
+    },
+    {
+      "id": 26,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "19",
+      "changana": "khume nkaye",
+      "valor": 19
+    },
+    {
+      "id": 27,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "20",
+      "changana": "makume mambirhi",
+      "valor": 20
+    },
+    {
+      "id": 28,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "30",
+      "changana": "makume manharhu",
+      "valor": 30
+    },
+    {
+      "id": 29,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "40",
+      "changana": "makume mamune",
+      "valor": 40
+    },
+    {
+      "id": 30,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "50",
+      "changana": "makume mantlhanu",
+      "valor": 50
+    },
+    {
+      "id": 31,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "60",
+      "changana": "makume mantsevu",
+      "valor": 60
+    },
+    {
+      "id": 32,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "70",
+      "changana": "makume mankombo",
+      "valor": 70
+    },
+    {
+      "id": 33,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "80",
+      "changana": "makume manhungu",
+      "valor": 80
+    },
+    {
+      "id": 34,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "90",
+      "changana": "makume mankaye",
+      "valor": 90
+    },
+    {
+      "id": 35,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "100",
+      "changana": "dzana",
+      "valor": 100
+    },
+    {
+      "id": 36,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "1000",
+      "changana": "khulu",
+      "valor": 1000
+    },
+    {
+      "id": 37,
+      "topic": "numeros",
+      "type": "numero",
+      "pt": "1000000",
+      "changana": "gidi",
+      "valor": 1000000
+    },
+    {
+      "id": 38,
+      "topic": "numeros",
+      "type": "regra",
+      "pt": "Padrão de formação dos números compostos",
+      "changana": null,
+      "nota": "Para números entre as dezenas (ex: 21, 35), combina-se 'makume' + dezena + unidade. Ex: 21 = 'makume mbirhi n'we' (dois-dez um). Para centenas: 'dzana' + número. Ex: 130 = 'dzana makume manharhu'."
+    },
+    {
+      "id": 39,
+      "topic": "numeros",
+      "type": "variacao",
+      "pt": "Três (variação)",
+      "changana": "rharu",
+      "nota": "Forma alternativa registada para 'nharhu' (3)."
+    },
+    {
+      "id": 40,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Segundo",
+      "changana": "Sekende",
+      "plural": "tisekende"
+    },
+    {
+      "id": 41,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Minuto",
+      "changana": "Minete",
+      "plural": "timinete"
+    },
+    {
+      "id": 42,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Hora",
+      "changana": "Awara",
+      "plural": "tiawara"
+    },
+    {
+      "id": 43,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Dia",
+      "changana": "Siku",
+      "plural": "masiku"
+    },
+    {
+      "id": 44,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Semana",
+      "changana": "Vhiki",
+      "plural": "mavhiki"
+    },
+    {
+      "id": 45,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Mês",
+      "changana": "N'hweti",
+      "plural": "tin'hweti"
+    },
+    {
+      "id": 46,
+      "topic": "tempo_calendario",
+      "type": "substantivo",
+      "pt": "Ano",
+      "changana": "Lembe",
+      "plural": "malembe"
+    },
+    {
+      "id": 47,
+      "topic": "tempo_calendario",
+      "type": "adverbio",
+      "pt": "Ontem",
+      "changana": "Tolo"
+    },
+    {
+      "id": 48,
+      "topic": "tempo_calendario",
+      "type": "adverbio",
+      "pt": "Hoje",
+      "changana": "Namuntlha"
+    },
+    {
+      "id": 49,
+      "topic": "tempo_calendario",
+      "type": "adverbio",
+      "pt": "Amanhã",
+      "changana": "Mundzuku"
+    },
+    {
+      "id": 50,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Domingo",
+      "changana": "Sonto"
+    },
+    {
+      "id": 51,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Segunda-feira",
+      "changana": "Musumbunuku"
+    },
+    {
+      "id": 52,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Terça-feira",
+      "changana": "Ravumbirhi"
+    },
+    {
+      "id": 53,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Quarta-feira",
+      "changana": "Ravurharhu"
+    },
+    {
+      "id": 54,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Quinta-feira",
+      "changana": "Ravumune"
+    },
+    {
+      "id": 55,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Sexta-feira",
+      "changana": "Ravunthlanu"
+    },
+    {
+      "id": 56,
+      "topic": "tempo_calendario",
+      "type": "dia_semana",
+      "pt": "Sábado",
+      "changana": "Muqivela"
+    },
+    {
+      "id": 57,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Janeiro",
+      "changana": "Sanguti"
+    },
+    {
+      "id": 58,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Fevereiro",
+      "changana": "Nyenyenyana"
+    },
+    {
+      "id": 59,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Março",
+      "changana": "Nyenyankulu"
+    },
+    {
+      "id": 60,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Abril",
+      "changana": "Dzivamisoko"
+    },
+    {
+      "id": 61,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Maio",
+      "changana": "Mudyaxihi"
+    },
+    {
+      "id": 62,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Junho",
+      "changana": "Khotavuxika"
+    },
+    {
+      "id": 63,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Julho",
+      "changana": "Mawuwani"
+    },
+    {
+      "id": 64,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Agosto",
+      "changana": "Mhawuri"
+    },
+    {
+      "id": 65,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Setembro",
+      "changana": "Mdzati"
+    },
+    {
+      "id": 66,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Outubro",
+      "changana": "Nhlangula"
+    },
+    {
+      "id": 67,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Novembro",
+      "changana": "Hukuri"
+    },
+    {
+      "id": 68,
+      "topic": "tempo_calendario",
+      "type": "mes",
+      "pt": "Dezembro",
+      "changana": "N'wendamhala"
+    },
+    {
+      "id": 69,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Preto",
+      "changana": "Ntima"
+    },
+    {
+      "id": 70,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Branco",
+      "changana": "Basa"
+    },
+    {
+      "id": 71,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Cinza",
+      "changana": null,
+      "nota": "Tradução não confirmada nas fontes consultadas."
+    },
+    {
+      "id": 72,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Azul",
+      "changana": "Wasi"
+    },
+    {
+      "id": 73,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Verde",
+      "changana": "Rihlaza"
+    },
+    {
+      "id": 74,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Amarelo",
+      "changana": null,
+      "nota": "Tradução não confirmada nas fontes consultadas."
+    },
+    {
+      "id": 75,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Dourado",
+      "changana": "Nsuku"
+    },
+    {
+      "id": 76,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Laranja",
+      "changana": "Lamula"
+    },
+    {
+      "id": 77,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Vermelho",
+      "changana": "Tshwuka"
+    },
+    {
+      "id": 78,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Castanho",
+      "changana": "Ribungwa"
+    },
+    {
+      "id": 79,
+      "topic": "cores",
+      "type": "cor",
+      "pt": "Rosa",
+      "changana": "Pinki"
+    },
+    {
+      "id": 80,
+      "topic": "familia_pessoas",
+      "type": "substantivo",
+      "pt": "Filho",
+      "changana": "n'wana"
+    },
+    {
+      "id": 81,
+      "topic": "familia_pessoas",
+      "type": "substantivo",
+      "pt": "Criança",
+      "changana": "ricece"
+    },
+    {
+      "id": 82,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Solteiro (não tomado)",
+      "changana": "Ku nga tekiwangi"
+    },
+    {
+      "id": 83,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Casado",
+      "changana": "Tekile"
+    },
+    {
+      "id": 84,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Separado",
+      "changana": "Hambanile"
+    },
+    {
+      "id": 85,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Divorciado",
+      "changana": "Muthariwa"
+    },
+    {
+      "id": 86,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Viúva",
+      "changana": "Noni"
+    },
+    {
+      "id": 87,
+      "topic": "familia_pessoas",
+      "type": "estado_civil",
+      "pt": "Viúvo",
+      "changana": null,
+      "nota": "Tradução não registada nas fontes consultadas."
+    },
+    {
+      "id": 88,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Estado civil",
+      "changana": "Xiyimo xa vukati"
+    },
+    {
+      "id": 89,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Parentesco",
+      "changana": "Vuxaka"
+    },
+    {
+      "id": 90,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Parceiro",
+      "changana": "Muringani"
+    },
+    {
+      "id": 91,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Local de nascimento",
+      "changana": "Ndhawu ya ku velekiwa"
+    },
+    {
+      "id": 92,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Residência",
+      "changana": "Vutshamo"
+    },
+    {
+      "id": 93,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Ocupação (trabalho)",
+      "changana": "Ntirho"
+    },
+    {
+      "id": 94,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Trabalhador (empregado)",
+      "changana": "Loyi a thoriweke"
+    },
+    {
+      "id": 95,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Raça",
+      "changana": "Rixaka"
+    },
+    {
+      "id": 96,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Religião",
+      "changana": "Vukhongeri"
+    },
+    {
+      "id": 97,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Género / Sexo",
+      "changana": "Rimbewu"
+    },
+    {
+      "id": 98,
+      "topic": "familia_pessoas",
+      "type": "identificacao",
+      "pt": "Cidadão",
+      "changana": "Muakatiko"
+    },
+    {
+      "id": 99,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Trabalhador / Empregado",
+      "changana": "Mutirhi"
+    },
+    {
+      "id": 100,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Médico",
+      "changana": "Dokodela"
+    },
+    {
+      "id": 101,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Enfermeiro",
+      "changana": "Muongori"
+    },
+    {
+      "id": 102,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Professor",
+      "changana": "Mudyondzisi"
+    },
+    {
+      "id": 103,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Motorista",
+      "changana": "Muchayeri"
+    },
+    {
+      "id": 104,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Vendedor",
+      "changana": "Muxavisi"
+    },
+    {
+      "id": 105,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Jogador de futebol",
+      "changana": "Mutlangi wa bolo"
+    },
+    {
+      "id": 106,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Árbitro",
+      "changana": "N'wa tipepe"
+    },
+    {
+      "id": 107,
+      "topic": "profissoes",
+      "type": "profissao",
+      "pt": "Intelectual",
+      "changana": "Xidyondzeki"
+    },
+    {
+      "id": 108,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Cão",
+      "changana": "Mbyana",
+      "plural": "Timbyana"
+    },
+    {
+      "id": 109,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Boi",
+      "changana": "Homu",
+      "plural": "Tihomu"
+    },
+    {
+      "id": 110,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Gato",
+      "changana": "Ximanga",
+      "plural": "Swimanga"
+    },
+    {
+      "id": 111,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Ovelha",
+      "changana": "Nyimpfu",
+      "plural": "Tinyimpfu"
+    },
+    {
+      "id": 112,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Burro",
+      "changana": "Mbhongholo",
+      "plural": "Timbhongholo"
+    },
+    {
+      "id": 113,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Porco",
+      "changana": "Nguluve",
+      "plural": "Tinguluve"
+    },
+    {
+      "id": 114,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Galinha",
+      "changana": "Huku",
+      "plural": "Tihuku"
+    },
+    {
+      "id": 115,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Cavalo",
+      "changana": "Hanci",
+      "plural": "Tihanci"
+    },
+    {
+      "id": 116,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Camelo",
+      "changana": "Mhangela",
+      "plural": "Tikamela",
+      "nota": "Mesma forma 'Mhangela' aparece também para 'Galinha-d'angola' nas fontes originais; pode haver erro de transcrição na fonte."
+    },
+    {
+      "id": 117,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Galinha-d'angola",
+      "changana": "Mhangela",
+      "plural": "Timhangela"
+    },
+    {
+      "id": 118,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Ganso",
+      "changana": "Sekwa",
+      "plural": "Masekwa"
+    },
+    {
+      "id": 119,
+      "topic": "animais",
+      "type": "animal_domestico",
+      "pt": "Peru",
+      "changana": "Galankulu",
+      "plural": "Magalankulu"
+    },
+    {
+      "id": 120,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Banana",
+      "changana": "Sengue"
+    },
+    {
+      "id": 121,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Maçã",
+      "changana": "Apula"
+    },
+    {
+      "id": 122,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Laranja",
+      "changana": "Lamula"
+    },
+    {
+      "id": 123,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Abacate",
+      "changana": "Ovhakhadi"
+    },
+    {
+      "id": 124,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Manga",
+      "changana": "Mangwa"
+    },
+    {
+      "id": 125,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Ananás",
+      "changana": "Xihenge"
+    },
+    {
+      "id": 126,
+      "topic": "frutas",
+      "type": "fruta",
+      "pt": "Pêra",
+      "changana": "Pyerhe"
+    },
+    {
+      "id": 127,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Ir / Andar",
+      "changana": "Ku Famba",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 128,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Guiar / Conduzir",
+      "changana": "Ku Fambissa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 129,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Fazer (criações)",
+      "changana": "Ku Hamba",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 130,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Acompanhar",
+      "changana": "Ku Helequeta",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 131,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Aparecer",
+      "changana": "Ku Humelela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 132,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Cantar",
+      "changana": "Ku Imbelela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 133,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Escutar",
+      "changana": "Ku Inguissa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 134,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Crer / Acreditar",
+      "changana": "Ku Kholwa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 135,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Segurar / Pegar",
+      "changana": "Ku Koma",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 136,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Pedir",
+      "changana": "Ku Kombela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 137,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Bater",
+      "changana": "Kuba",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 138,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Comer",
+      "changana": "Kuda",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 139,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Encontrar",
+      "changana": "Ku Kuma",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 140,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Sentir",
+      "changana": "Kutwa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 141,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Cair",
+      "changana": "Kuwa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 142,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Escolher",
+      "changana": "Ku Langa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 143,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Observar",
+      "changana": "Ku Languta",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 144,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Querer / Desejar",
+      "changana": "Ku Lava",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 145,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Lavar-se (corpo)",
+      "changana": "Ku Lhamba",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 146,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Responder",
+      "changana": "Ku Lhamula",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 147,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Lavar",
+      "changana": "Ku Lhantswa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 148,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Dizer",
+      "changana": "Ku Lhaya",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 149,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Emprestar",
+      "changana": "Ku Lomba",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 150,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Cobiçar",
+      "changana": "Ku Navela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 151,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Escorregar",
+      "changana": "Ku Nguirimela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 152,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Dar",
+      "changana": "Ku Nhica",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 153,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Parar / Esperar",
+      "changana": "Ku Nhima",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 154,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Dar (variação)",
+      "changana": "Ku Nhiqueta",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 155,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Correr",
+      "changana": "Ku Panda",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 156,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Acompanhar (fazer companhia)",
+      "changana": "Ku Pangalata",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 157,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Fechar",
+      "changana": "Ku Pfala",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 158,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Abrir",
+      "changana": "Ku Pfula",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 159,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Aceitar",
+      "changana": "Ku Pfumela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 160,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Beber",
+      "changana": "Ku Phura",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 161,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Chorar",
+      "changana": "Ku Rila",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 162,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Capinar",
+      "changana": "Ku Rima",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 163,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Levantar",
+      "changana": "Ku Sekeleka",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 164,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Começar",
+      "changana": "Ku Sugula",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 165,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Cozinhar",
+      "changana": "Ku Sweka",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 166,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Levar",
+      "changana": "Ku Teka",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 167,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Apagar",
+      "changana": "Ku Tima",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 168,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Chegar",
+      "changana": "Ku Tlhassa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 169,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Escrever",
+      "changana": "Ku Tsala",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 170,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Sentar",
+      "changana": "Ku Tsama",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 171,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Esconder",
+      "changana": "Ku Tumbela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 172,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Trocar",
+      "changana": "Ku Txintxa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 173,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Guardar",
+      "changana": "Ku Veca",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 174,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Chamar",
+      "changana": "Ku Vitana",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 175,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Ver",
+      "changana": "Ku Vona",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 176,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Perguntar",
+      "changana": "Ku Vutissa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 177,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Vir",
+      "changana": "Ku Vuya",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 178,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Vender",
+      "changana": "Ku Xavissa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 179,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Negar",
+      "changana": "Ku Yala",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 180,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Vestir",
+      "changana": "Ku Yambala",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 181,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Fazer (realizações)",
+      "changana": "Ku Yentxa",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 182,
+      "topic": "verbos",
+      "type": "verbo",
+      "pt": "Dormir",
+      "changana": "Ku Yetlhela",
+      "nota_gramatical": "O prefixo 'Ku' marca o infinitivo, semelhante ao 'to' do inglês."
+    },
+    {
+      "id": 183,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Vírus da imunodeficiência humana (VIH)",
+      "changana": "xitsongwatsongwanankansawuto"
+    },
+    {
+      "id": 184,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Peso de nascença",
+      "changana": "ntiko wa ku velekiwa"
+    },
+    {
+      "id": 185,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Sexo",
+      "changana": "rimbewu"
+    },
+    {
+      "id": 186,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Morte",
+      "changana": "rifu"
+    },
+    {
+      "id": 187,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Saneamento",
+      "changana": "nkululo"
+    },
+    {
+      "id": 188,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Deficiência",
+      "changana": "ku tsoniwa"
+    },
+    {
+      "id": 189,
+      "topic": "saude_documentos",
+      "type": "saude",
+      "pt": "Deficiente físico",
+      "changana": "vutsoniwa"
+    },
+    {
+      "id": 190,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Legal",
+      "changana": "Xinawu"
+    },
+    {
+      "id": 191,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Lei",
+      "changana": "Nawu"
+    },
+    {
+      "id": 192,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Questionário / Inquérito",
+      "changana": "Khwexinere"
+    },
+    {
+      "id": 193,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Investigação",
+      "changana": "Ndzavisiso"
+    },
+    {
+      "id": 194,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Queixoso (parte queixosa)",
+      "changana": "Mumangari"
+    },
+    {
+      "id": 195,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Caso resolvido",
+      "changana": "Mhaka leyi ololoxiweke"
+    },
+    {
+      "id": 196,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Caso não resolvido",
+      "changana": "Mhaka leyi nga ololoxiwangiki"
+    },
+    {
+      "id": 197,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Procurador",
+      "changana": "Muyimeri"
+    },
+    {
+      "id": 198,
+      "topic": "saude_documentos",
+      "type": "direito",
+      "pt": "Voto",
+      "changana": "Vhoti"
+    },
+    {
+      "id": 199,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Adição",
+      "changana": "Hlanganisa"
+    },
+    {
+      "id": 200,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Subtracção",
+      "changana": "Susa"
+    },
+    {
+      "id": 201,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Multiplicação",
+      "changana": "Andzisa"
+    },
+    {
+      "id": 202,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Divisão",
+      "changana": "Avanyisa"
+    },
+    {
+      "id": 203,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Objecto / Coisa",
+      "changana": "Nchumu"
+    },
+    {
+      "id": 204,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Círculo",
+      "changana": "Rhandzavula"
+    },
+    {
+      "id": 205,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Quadrado",
+      "changana": "Xikwere"
+    },
+    {
+      "id": 206,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Triângulo",
+      "changana": "Yinhla nharhu"
+    },
+    {
+      "id": 207,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Cilindro",
+      "changana": "Silindara"
+    },
+    {
+      "id": 208,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Rectângulo",
+      "changana": "Rhekithengula"
+    },
+    {
+      "id": 209,
+      "topic": "matematica_geometria",
+      "type": "matematica",
+      "pt": "Esfera",
+      "changana": "Rhandzavula",
+      "nota": "A mesma palavra 'Rhandzavula' aparece para 'círculo' e 'esfera' nas fontes - confirmar se é a mesma palavra ou erro de transcrição."
+    },
+    {
+      "id": 210,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Educação dos pais",
+      "forma_oral": "MHUNTI YI THLANGISA A ÑWANA.",
+      "traducao_literal": "A gazela ensina a cria a brincar.",
+      "sentido": "O exemplo dos pais é a melhor escola dos filhos. O que se aprende no berço sempre fica."
+    },
+    {
+      "id": 211,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Educar para o futuro",
+      "forma_oral": "A NSINYA VA WU WOLOLA NA WU RI WUTSONGO.",
+      "traducao_literal": "Endireita-se a árvore enquanto é pequenina.",
+      "sentido": "De pequenino se torce o pepino."
+    },
+    {
+      "id": 212,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Prevalência do carácter",
+      "forma_oral": "NCHILA WA MBYANA LOKO WU KHOTSEKILE A WU NA MUWOLOLI.",
+      "traducao_literal": "Quando a cauda do cão é torta não há quem a endireite.",
+      "sentido": "O que torto nasce, torto morre."
+    },
+    {
+      "id": 213,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Quando a educação falha",
+      "forma_oral": "NHEMHA YI PSWALA TOYA.",
+      "traducao_literal": "De um herói pode nascer um covarde.",
+      "sentido": "Muitas vezes os filhos são a vergonha dos pais."
+    },
+    {
+      "id": 214,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Prevalência do carácter",
+      "forma_oral": "ÑHWARI YI PSWALA A ÑHWARI.",
+      "traducao_literal": "Uma perdiz dá uma perdiz.",
+      "sentido": "Tal pai, tal filho."
+    },
+    {
+      "id": 215,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Valor moral",
+      "forma_oral": "A KU YAMBALA I MAVALA, KU VELEKA I WUKOSI.",
+      "traducao_literal": "Vestir-se bem é só cores; riqueza é ter filhos.",
+      "sentido": "De nada vale a beleza sem a virtude."
+    },
+    {
+      "id": 216,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Aparências",
+      "forma_oral": "KWAKWA RA SEKWA RI VONIWA KULE.",
+      "traducao_literal": "Uma cuácua (fruto do mato) da cor do pato (madura) vê-se de longe (mas pode estar podre por dentro).",
+      "sentido": "As aparências iludem. Não há beleza sem senão."
+    },
+    {
+      "id": 217,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Aparências",
+      "forma_oral": "U NGA TSHEMBI MUNHU HI NGOE.",
+      "traducao_literal": "Não confies em ninguém pelo bom aspecto do rosto.",
+      "sentido": "A gente vê caras e não vê corações."
+    },
+    {
+      "id": 218,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Aparências",
+      "forma_oral": "A KUWA RO PSHWUKA A RI PFUMALI SWIVUNGU A NDZENI.",
+      "traducao_literal": "A um figo maduro não faltam bichos dentro.",
+      "sentido": "Nem tudo o que luz é ouro, nem o que alveja é prata."
+    },
+    {
+      "id": 219,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "O que tem valor",
+      "forma_oral": "NDZHAKA YA BAVA DJANA WA HA HANYA.",
+      "traducao_literal": "A herança paterna come-se enquanto o pai vive.",
+      "sentido": "A melhor herança são os bons ensinamentos."
+    },
+    {
+      "id": 220,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Pessoas",
+      "forma_oral": "A MBITA YA VOVO YI DLAYA LE'TO TIYA.",
+      "traducao_literal": "Uma panela fraca parte as panelas fortes.",
+      "sentido": "Uma pessoa doente pode viver mais que uma pessoa sã."
+    },
+    {
+      "id": 221,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Aparências",
+      "forma_oral": "A NHLEKO A WU HLEKELI XAKA NTSENA.",
+      "traducao_literal": "Não se ri só para o parente.",
+      "sentido": "O rosto nem sempre mostra o que vai no coração."
+    },
+    {
+      "id": 222,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Animais / Segredos",
+      "forma_oral": "A HOMU A YI NGE PSWALELI NTLAMBHINI.",
+      "traducao_literal": "A vaca não pare no meio da manada.",
+      "sentido": "Há segredos que não se devem divulgar."
+    },
+    {
+      "id": 223,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Cuidado / Sabedoria",
+      "forma_oral": "A NTAVA A VA YI KHWELI HI KU TSUTSUMA.",
+      "traducao_literal": "Não se sobe a montanha a correr.",
+      "sentido": "Mais vale jeito que força."
+    },
+    {
+      "id": 224,
+      "topic": "proverbios",
+      "type": "proverbio",
+      "tema": "Amizade",
+      "forma_oral": "A WUNGHANU I WUPFUNDZI.",
+      "traducao_literal": "A amizade é uma riqueza.",
+      "sentido": "São ricos os que têm amigos."
+    },
+    {
+      "id": 225,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Bom dia",
+      "changana": "Auxene",
+      "alternativas": [
+        "Avuxeni"
+      ]
+    },
+    {
+      "id": 226,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Boa tarde",
+      "changana": "I hlikani",
+      "alternativas": [
+        "Inhlikanhi"
+      ]
+    },
+    {
+      "id": 227,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Boa noite",
+      "changana": "Aupeleni",
+      "alternativas": [
+        "Riperile"
+      ]
+    },
+    {
+      "id": 228,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Olá (formal)",
+      "changana": "Xewani"
+    },
+    {
+      "id": 229,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Como estás?",
+      "changana": "U njhani?"
+    },
+    {
+      "id": 230,
+      "topic": "saudacoes_cortesias",
+      "type": "saudacao",
+      "pt": "Estou bem (resposta)",
+      "changana": "Ndzi kona"
+    },
+    {
+      "id": 231,
+      "topic": "saudacoes_cortesias",
+      "type": "adverbio",
+      "pt": "Bem",
+      "changana": "kahle"
+    },
+    {
+      "id": 232,
+      "topic": "saudacoes_cortesias",
+      "type": "cortesia",
+      "pt": "Obrigado",
+      "changana": "Khanimambo",
+      "alternativas": [
+        "Inkomu",
+        "Hinkomu",
+        "Ndza nkhensa"
+      ]
+    },
+    {
+      "id": 233,
+      "topic": "saudacoes_cortesias",
+      "type": "basico",
+      "pt": "Sim",
+      "changana": "ina"
+    },
+    {
+      "id": 234,
+      "topic": "saudacoes_cortesias",
+      "type": "basico",
+      "pt": "Não",
+      "changana": "E-e"
+    },
+    {
+      "id": 235,
+      "topic": "saudacoes_cortesias",
+      "type": "tratamento",
+      "pt": "Senhor (Sr.)",
+      "changana": "tatana"
+    },
+    {
+      "id": 236,
+      "topic": "saudacoes_cortesias",
+      "type": "substantivo",
+      "pt": "Nome",
+      "changana": "vito"
+    },
+    {
+      "id": 237,
+      "topic": "saudacoes_cortesias",
+      "type": "substantivo",
+      "pt": "Pessoa",
+      "changana": "munhu",
+      "plural": "vanhu"
+    }
+  ]
+}

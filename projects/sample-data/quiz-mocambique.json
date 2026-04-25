@@ -1,0 +1,726 @@
+{
+  "version": "1.0",
+  "language": "pt-MZ",
+  "title": "Quiz de História e Cultura de Moçambique",
+  "description": "Banco de 50 perguntas de escolha múltipla sobre datas-chave, personalidades, símbolos e factos de Moçambique. Cada pergunta tem 4 opções, uma correcta, e explicação para fins didácticos.",
+  "scoring": {
+    "correct": 1,
+    "incorrect": 0,
+    "passing_score_pct": 70,
+    "easy_weight": 1,
+    "medium_weight": 1,
+    "hard_weight": 2
+  },
+  "categories": [
+    "independencia",
+    "presidentes",
+    "guerra_civil",
+    "moeda",
+    "feriados",
+    "simbolos",
+    "geografia",
+    "cultura"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "independencia",
+      "difficulty": "easy",
+      "question": "Em que data Moçambique proclamou a sua independência?",
+      "options": [
+        "25 de Abril de 1974",
+        "25 de Junho de 1975",
+        "25 de Setembro de 1964",
+        "4 de Outubro de 1992"
+      ],
+      "correct": 1,
+      "explanation": "Moçambique proclamou a sua independência total e completa a 25 de Junho de 1975, no Estádio da Machava, após cerca de 11 anos de luta armada de libertação."
+    },
+    {
+      "id": 2,
+      "category": "presidentes",
+      "difficulty": "easy",
+      "question": "Quem foi o primeiro Presidente da República de Moçambique?",
+      "options": [
+        "Eduardo Mondlane",
+        "Joaquim Chissano",
+        "Samora Machel",
+        "Armando Guebuza"
+      ],
+      "correct": 2,
+      "explanation": "Samora Moisés Machel foi o primeiro Presidente da República Popular de Moçambique, de 25 de Junho de 1975 até à sua morte num acidente aéreo a 19 de Outubro de 1986."
+    },
+    {
+      "id": 3,
+      "category": "independencia",
+      "difficulty": "easy",
+      "question": "De que país Moçambique conquistou a independência?",
+      "options": [
+        "Reino Unido",
+        "Portugal",
+        "França",
+        "Bélgica"
+      ],
+      "correct": 1,
+      "explanation": "Moçambique conquistou a independência de Portugal, após cerca de quatro séculos de domínio colonial português que remonta ao início do século XVI."
+    },
+    {
+      "id": 4,
+      "category": "guerra_civil",
+      "difficulty": "easy",
+      "question": "Em que data foi assinado o Acordo Geral de Paz que pôs fim à guerra civil?",
+      "options": [
+        "7 de Setembro de 1974",
+        "16 de Março de 1984",
+        "4 de Outubro de 1992",
+        "9 de Outubro de 2024"
+      ],
+      "correct": 2,
+      "explanation": "O Acordo Geral de Paz foi assinado a 4 de Outubro de 1992, em Roma, pelos então Presidente Joaquim Chissano e líder da RENAMO Afonso Dhlakama, pondo fim a 16 anos de guerra civil."
+    },
+    {
+      "id": 5,
+      "category": "guerra_civil",
+      "difficulty": "easy",
+      "question": "Em que cidade foi assinado o Acordo Geral de Paz?",
+      "options": [
+        "Maputo",
+        "Lisboa",
+        "Roma",
+        "Nairobi"
+      ],
+      "correct": 2,
+      "explanation": "O Acordo Geral de Paz foi assinado em Roma, na sede da Comunidade de Sant'Egídio, que mediou as negociações entre o Governo de Moçambique e a RENAMO."
+    },
+    {
+      "id": 6,
+      "category": "moeda",
+      "difficulty": "easy",
+      "question": "Qual é a moeda oficial de Moçambique?",
+      "options": [
+        "Escudo",
+        "Rand",
+        "Metical",
+        "Kwacha"
+      ],
+      "correct": 2,
+      "explanation": "A moeda oficial de Moçambique é o Metical (MT), introduzida a 16 de Junho de 1980 em substituição do escudo moçambicano."
+    },
+    {
+      "id": 7,
+      "category": "moeda",
+      "difficulty": "medium",
+      "question": "Em que ano foi introduzido o Metical?",
+      "options": [
+        "1975",
+        "1980",
+        "1992",
+        "2006"
+      ],
+      "correct": 1,
+      "explanation": "O Metical foi introduzido a 16 de Junho de 1980, cinco anos após a independência, substituindo o escudo moçambicano que ainda circulava após a saída de Portugal."
+    },
+    {
+      "id": 8,
+      "category": "moeda",
+      "difficulty": "hard",
+      "question": "De onde deriva o nome 'Metical'?",
+      "options": [
+        "Do nome de um rio moçambicano",
+        "De uma palavra árabe que designava unidade de peso em ouro",
+        "Do nome de um chefe tradicional",
+        "Do português antigo"
+      ],
+      "correct": 1,
+      "explanation": "O nome Metical deriva do árabe 'mithqāl' (مثقال), uma unidade de peso usada para o ouro e nome alternativo do dinar de ouro, moeda usada no comércio costeiro de Moçambique até ao século XIX."
+    },
+    {
+      "id": 9,
+      "category": "feriados",
+      "difficulty": "easy",
+      "question": "Que feriado se celebra a 25 de Junho?",
+      "options": [
+        "Dia dos Heróis",
+        "Dia da Independência Nacional",
+        "Dia da Mulher Moçambicana",
+        "Dia da Paz"
+      ],
+      "correct": 1,
+      "explanation": "A 25 de Junho celebra-se o Dia da Independência Nacional, comemorando a proclamação da independência em 1975."
+    },
+    {
+      "id": 10,
+      "category": "feriados",
+      "difficulty": "medium",
+      "question": "Que feriado se celebra a 4 de Outubro?",
+      "options": [
+        "Dia das Forças Armadas",
+        "Dia da Vitória",
+        "Dia da Paz e Reconciliação",
+        "Dia dos Heróis"
+      ],
+      "correct": 2,
+      "explanation": "A 4 de Outubro celebra-se o Dia da Paz e Reconciliação Nacional, em memória da assinatura do Acordo Geral de Paz em 1992. Foi proclamado feriado nacional em 2010."
+    },
+    {
+      "id": 11,
+      "category": "feriados",
+      "difficulty": "medium",
+      "question": "O Dia dos Heróis Moçambicanos celebra-se a 3 de Fevereiro em homenagem a quem?",
+      "options": [
+        "Samora Machel",
+        "Eduardo Mondlane",
+        "Josina Machel",
+        "Joaquim Chissano"
+      ],
+      "correct": 1,
+      "explanation": "A data homenageia Eduardo Chivambo Mondlane, fundador da FRELIMO, assassinado a 3 de Fevereiro de 1969 na Tanzânia por uma carta-bomba."
+    },
+    {
+      "id": 12,
+      "category": "feriados",
+      "difficulty": "medium",
+      "question": "O Dia da Mulher Moçambicana, a 7 de Abril, homenageia que figura histórica?",
+      "options": [
+        "Graça Machel",
+        "Josina Machel",
+        "Sorita Tchaicomo",
+        "Margarida Talapa"
+      ],
+      "correct": 1,
+      "explanation": "O 7 de Abril homenageia Josina Machel (1945-1971), heroína nacional e segunda esposa de Samora Machel, símbolo da participação feminina na luta pela independência."
+    },
+    {
+      "id": 13,
+      "category": "feriados",
+      "difficulty": "medium",
+      "question": "O que se celebra a 25 de Setembro?",
+      "options": [
+        "Dia da Vitória",
+        "Dia das Forças Armadas de Defesa de Moçambique",
+        "Dia da Paz",
+        "Dia da Independência"
+      ],
+      "correct": 1,
+      "explanation": "A 25 de Setembro celebra-se o Dia das Forças Armadas de Defesa de Moçambique, marcando o início da Luta Armada de Libertação Nacional em 1964."
+    },
+    {
+      "id": 14,
+      "category": "presidentes",
+      "difficulty": "medium",
+      "question": "Quem é o actual Presidente de Moçambique?",
+      "options": [
+        "Filipe Nyusi",
+        "Armando Guebuza",
+        "Daniel Chapo",
+        "Venâncio Mondlane"
+      ],
+      "correct": 2,
+      "explanation": "Daniel Francisco Chapo é o actual Presidente, tendo tomado posse a 15 de Janeiro de 2025 como o 5.º Presidente de Moçambique."
+    },
+    {
+      "id": 15,
+      "category": "presidentes",
+      "difficulty": "medium",
+      "question": "Em que ordem se sucederam os Presidentes de Moçambique?",
+      "options": [
+        "Machel, Guebuza, Chissano, Nyusi, Chapo",
+        "Mondlane, Machel, Chissano, Guebuza, Nyusi",
+        "Machel, Chissano, Guebuza, Nyusi, Chapo",
+        "Chissano, Machel, Nyusi, Guebuza, Chapo"
+      ],
+      "correct": 2,
+      "explanation": "A ordem correcta dos cinco Presidentes da República de Moçambique é: Samora Machel (1975-1986), Joaquim Chissano (1986-2005), Armando Guebuza (2005-2015), Filipe Nyusi (2015-2025) e Daniel Chapo (desde 2025)."
+    },
+    {
+      "id": 16,
+      "category": "presidentes",
+      "difficulty": "medium",
+      "question": "Quem sucedeu a Samora Machel após o seu falecimento em 1986?",
+      "options": [
+        "Eduardo Mondlane",
+        "Armando Guebuza",
+        "Joaquim Chissano",
+        "Filipe Nyusi"
+      ],
+      "correct": 2,
+      "explanation": "Joaquim Alberto Chissano sucedeu Samora Machel em 1986 após o acidente aéreo, e foi Presidente até 2005, dois mandatos depois das primeiras eleições multipartidárias de 1994."
+    },
+    {
+      "id": 17,
+      "category": "presidentes",
+      "difficulty": "hard",
+      "question": "Quem foi o primeiro líder e fundador da FRELIMO?",
+      "options": [
+        "Samora Machel",
+        "Eduardo Mondlane",
+        "Joaquim Chissano",
+        "Marcelino dos Santos"
+      ],
+      "correct": 1,
+      "explanation": "Eduardo Chivambo Mondlane foi o primeiro presidente da FRELIMO, fundada em 1962. Foi assassinado em 1969 antes de ver a independência. Samora Machel sucedeu-o como segundo presidente do movimento."
+    },
+    {
+      "id": 18,
+      "category": "guerra_civil",
+      "difficulty": "easy",
+      "question": "Quantos anos durou a guerra civil em Moçambique?",
+      "options": [
+        "10 anos",
+        "12 anos",
+        "16 anos",
+        "20 anos"
+      ],
+      "correct": 2,
+      "explanation": "A guerra civil moçambicana durou 16 anos, desde finais da década de 1970 até 4 de Outubro de 1992, com o Acordo Geral de Paz. Causou cerca de um milhão de mortos e milhões de deslocados."
+    },
+    {
+      "id": 19,
+      "category": "guerra_civil",
+      "difficulty": "medium",
+      "question": "Que organização mediou as negociações de paz em Roma?",
+      "options": [
+        "Nações Unidas",
+        "Comunidade de Sant'Egídio",
+        "União Africana",
+        "Cruz Vermelha Internacional"
+      ],
+      "correct": 1,
+      "explanation": "A Comunidade de Sant'Egídio, organização católica leiga sediada em Roma, mediou as negociações desde 10 de Julho de 1990 até à assinatura do acordo a 4 de Outubro de 1992."
+    },
+    {
+      "id": 20,
+      "category": "guerra_civil",
+      "difficulty": "medium",
+      "question": "Quem assinou o Acordo Geral de Paz pelo lado da RENAMO?",
+      "options": [
+        "Raul Domingos",
+        "Afonso Dhlakama",
+        "Ossufo Momade",
+        "Venâncio Mondlane"
+      ],
+      "correct": 1,
+      "explanation": "Afonso Dhlakama, então líder da RENAMO, assinou o Acordo Geral de Paz com Joaquim Chissano. Dhlakama liderou a RENAMO até ao seu falecimento em 2018."
+    },
+    {
+      "id": 21,
+      "category": "guerra_civil",
+      "difficulty": "medium",
+      "question": "Em que dia teve início a Luta Armada de Libertação Nacional?",
+      "options": [
+        "25 de Junho de 1975",
+        "25 de Setembro de 1964",
+        "3 de Fevereiro de 1969",
+        "25 de Abril de 1974"
+      ],
+      "correct": 1,
+      "explanation": "A Luta Armada de Libertação Nacional foi iniciada pela FRELIMO a 25 de Setembro de 1964, em Chai, província de Cabo Delgado. Por isso, esta data é hoje o Dia das Forças Armadas."
+    },
+    {
+      "id": 22,
+      "category": "presidentes",
+      "difficulty": "hard",
+      "question": "Em que circunstâncias morreu Samora Machel?",
+      "options": [
+        "Atentado em Maputo",
+        "Acidente aéreo nos Montes Libombos",
+        "Doença prolongada",
+        "Combate na guerra civil"
+      ],
+      "correct": 1,
+      "explanation": "Samora Machel morreu a 19 de Outubro de 1986 quando o Tupolev Tu-134 que o transportava se despenhou nos Montes Libombos, em Mbuzini (África do Sul), regressando de uma reunião em Lusaka."
+    },
+    {
+      "id": 23,
+      "category": "moeda",
+      "difficulty": "medium",
+      "question": "Em que ano foi introduzida a 'nova família' do Metical?",
+      "options": [
+        "1995",
+        "2000",
+        "2006",
+        "2011"
+      ],
+      "correct": 2,
+      "explanation": "A nova família do Metical entrou em circulação a 1 de Julho de 2006, com taxa de conversão de 1.000 meticais antigos (MZM) para 1 metical novo (MZN)."
+    },
+    {
+      "id": 24,
+      "category": "moeda",
+      "difficulty": "medium",
+      "question": "Qual é o código ISO da moeda actual de Moçambique?",
+      "options": [
+        "MZM",
+        "MZN",
+        "MZC",
+        "MTC"
+      ],
+      "correct": 1,
+      "explanation": "MZN é o código ISO 4217 do Metical actual, em vigor desde 2006. O código antigo MZM correspondia ao primeiro Metical de 1980 a 2006."
+    },
+    {
+      "id": 25,
+      "category": "moeda",
+      "difficulty": "hard",
+      "question": "Quem aparece estampado nas notas actuais do Metical?",
+      "options": [
+        "Eduardo Mondlane",
+        "Samora Machel",
+        "Joaquim Chissano",
+        "Animais selvagens apenas"
+      ],
+      "correct": 1,
+      "explanation": "Todas as notas da família actual do Metical têm na frente a imagem de Samora Machel, primeiro Presidente, e no verso imagens de animais selvagens da fauna moçambicana."
+    },
+    {
+      "id": 26,
+      "category": "moeda",
+      "difficulty": "hard",
+      "question": "Em que dia se celebra o Dia do Metical?",
+      "options": [
+        "1 de Julho",
+        "16 de Junho",
+        "25 de Junho",
+        "1 de Maio"
+      ],
+      "correct": 1,
+      "explanation": "O Dia do Metical celebra-se a 16 de Junho, data da introdução da moeda em 1980. Esta data foi escolhida em memória do massacre de Mueda, ocorrido a 16 de Junho de 1960."
+    },
+    {
+      "id": 27,
+      "category": "geografia",
+      "difficulty": "easy",
+      "question": "Qual é a capital de Moçambique?",
+      "options": [
+        "Beira",
+        "Maputo",
+        "Nampula",
+        "Quelimane"
+      ],
+      "correct": 1,
+      "explanation": "Maputo é a capital de Moçambique, anteriormente chamada Lourenço Marques durante o período colonial. O nome foi mudado após a independência."
+    },
+    {
+      "id": 28,
+      "category": "geografia",
+      "difficulty": "easy",
+      "question": "Qual era o nome de Maputo durante o período colonial?",
+      "options": [
+        "Beira",
+        "Nampula",
+        "Lourenço Marques",
+        "Vila Salazar"
+      ],
+      "correct": 2,
+      "explanation": "Maputo chamava-se Lourenço Marques durante o período colonial português, em homenagem ao explorador português que visitou a baía no século XVI."
+    },
+    {
+      "id": 29,
+      "category": "geografia",
+      "difficulty": "medium",
+      "question": "Quantas províncias tem Moçambique?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "Moçambique tem 11 províncias: Cabo Delgado, Niassa, Nampula, Zambézia, Tete, Manica, Sofala, Inhambane, Gaza, Maputo Província e Cidade de Maputo (com estatuto provincial)."
+    },
+    {
+      "id": 30,
+      "category": "geografia",
+      "difficulty": "medium",
+      "question": "Que rios marcam respectivamente as fronteiras norte e sul de Moçambique?",
+      "options": [
+        "Limpopo e Zambeze",
+        "Rovuma e Maputo",
+        "Save e Lúrio",
+        "Pungoé e Búzi"
+      ],
+      "correct": 1,
+      "explanation": "O rio Rovuma marca a fronteira norte (com a Tanzânia) e o rio Maputo marca a fronteira sul. Daí a expressão 'do Rovuma ao Maputo' como sinónimo de todo o território nacional."
+    },
+    {
+      "id": 31,
+      "category": "geografia",
+      "difficulty": "medium",
+      "question": "Qual é o maior rio que atravessa Moçambique?",
+      "options": [
+        "Limpopo",
+        "Save",
+        "Zambeze",
+        "Lúrio"
+      ],
+      "correct": 2,
+      "explanation": "O rio Zambeze é o maior rio que atravessa Moçambique e o quarto maior de África, percorrendo o país do oeste para a costa do Índico, onde forma um amplo delta."
+    },
+    {
+      "id": 32,
+      "category": "simbolos",
+      "difficulty": "medium",
+      "question": "Que objecto aparece no centro da bandeira de Moçambique sobre o livro?",
+      "options": [
+        "Uma espada",
+        "Uma enxada e uma AK-47",
+        "Uma pomba",
+        "Uma estrela apenas"
+      ],
+      "correct": 1,
+      "explanation": "A bandeira de Moçambique tem ao centro uma estrela amarela com um livro aberto, sobre o qual se cruzam uma enxada (representando a agricultura) e uma AK-47 (representando a defesa e a luta de libertação)."
+    },
+    {
+      "id": 33,
+      "category": "simbolos",
+      "difficulty": "medium",
+      "question": "Quais são as cores principais da bandeira de Moçambique?",
+      "options": [
+        "Verde, branco e vermelho",
+        "Verde, preto, amarelo, branco e vermelho",
+        "Vermelho e amarelo apenas",
+        "Azul, branco e verde"
+      ],
+      "correct": 1,
+      "explanation": "A bandeira tem cinco cores: verde (riqueza da terra), preto (continente africano), amarelo (riqueza mineral), branco (paz) e vermelho (luta pela independência), distribuídas em faixas e um triângulo vermelho."
+    },
+    {
+      "id": 34,
+      "category": "cultura",
+      "difficulty": "easy",
+      "question": "Qual é a língua oficial de Moçambique?",
+      "options": [
+        "Inglês",
+        "Português",
+        "Suaíli",
+        "Changana"
+      ],
+      "correct": 1,
+      "explanation": "O português é a língua oficial de Moçambique, herdada do período colonial. No entanto, são faladas dezenas de línguas bantu como o Changana, Macua, Sena, Ndau, entre outras."
+    },
+    {
+      "id": 35,
+      "category": "cultura",
+      "difficulty": "medium",
+      "question": "Qual destas é uma língua bantu falada no sul de Moçambique?",
+      "options": [
+        "Macua",
+        "Changana",
+        "Suaíli",
+        "Yorubá"
+      ],
+      "correct": 1,
+      "explanation": "Changana (também chamado Xichangana) é uma língua bantu falada principalmente nas províncias do sul (Maputo, Gaza, Inhambane). Macua é falada no norte. Suaíli e Yorubá não são línguas moçambicanas."
+    },
+    {
+      "id": 36,
+      "category": "cultura",
+      "difficulty": "easy",
+      "question": "Como se diz 'obrigado' em Changana?",
+      "options": [
+        "Asante",
+        "Kanimambo",
+        "Salani",
+        "Avuxeni"
+      ],
+      "correct": 1,
+      "explanation": "Em Changana, 'obrigado' diz-se 'kanimambo'. 'Avuxeni' significa 'bom dia' e 'salani' é uma forma de despedida ('fica bem')."
+    },
+    {
+      "id": 37,
+      "category": "cultura",
+      "difficulty": "medium",
+      "question": "O que é o 'xitique'?",
+      "options": [
+        "Um prato típico",
+        "Uma dança tradicional",
+        "Um sistema de poupança rotativa em grupo",
+        "Um instrumento musical"
+      ],
+      "correct": 2,
+      "explanation": "O xitique é um sistema tradicional de poupança rotativa em que membros de um grupo contribuem com um valor fixo periódico, e cada um recebe a totalidade num turno definido. Muito usado em Moçambique."
+    },
+    {
+      "id": 38,
+      "category": "cultura",
+      "difficulty": "medium",
+      "question": "O que é a 'timbila'?",
+      "options": [
+        "Um tipo de tecido tradicional",
+        "Um instrumento musical de teclas semelhante ao xilofone",
+        "Uma dança ritual",
+        "Um prato com peixe"
+      ],
+      "correct": 1,
+      "explanation": "A timbila é um instrumento musical tradicional dos Chopes (sul de Moçambique), semelhante a um xilofone, com teclas de madeira sobre cabaças ressoadoras. É Património Imaterial da Humanidade pela UNESCO desde 2005."
+    },
+    {
+      "id": 39,
+      "category": "cultura",
+      "difficulty": "hard",
+      "question": "Em que ano a UNESCO classificou a Ilha de Moçambique como Património Mundial?",
+      "options": [
+        "1979",
+        "1985",
+        "1991",
+        "2001"
+      ],
+      "correct": 2,
+      "explanation": "A Ilha de Moçambique foi classificada Património Mundial pela UNESCO em 1991. Foi a primeira capital do território colonial, e o seu nome deu origem ao nome do país."
+    },
+    {
+      "id": 40,
+      "category": "presidentes",
+      "difficulty": "medium",
+      "question": "Quem foi o segundo Presidente de Moçambique e quanto tempo governou?",
+      "options": [
+        "Joaquim Chissano, 19 anos (1986-2005)",
+        "Armando Guebuza, 10 anos (2005-2015)",
+        "Filipe Nyusi, 10 anos (2015-2025)",
+        "Eduardo Mondlane, 7 anos (1962-1969)"
+      ],
+      "correct": 0,
+      "explanation": "Joaquim Alberto Chissano foi o segundo Presidente, governando de 1986 (após a morte de Machel) até 2005, totalizando 19 anos. Foi também Primeiro-Ministro do Governo de Transição em 1974-1975."
+    },
+    {
+      "id": 41,
+      "category": "guerra_civil",
+      "difficulty": "hard",
+      "question": "Quando foram realizadas as primeiras eleições multipartidárias em Moçambique?",
+      "options": [
+        "1990",
+        "1992",
+        "1994",
+        "2000"
+      ],
+      "correct": 2,
+      "explanation": "As primeiras eleições multipartidárias decorreram em 1994, dois anos após o Acordo Geral de Paz, vencidas pela FRELIMO com Joaquim Chissano como candidato presidencial."
+    },
+    {
+      "id": 42,
+      "category": "guerra_civil",
+      "difficulty": "hard",
+      "question": "Em que ano Moçambique mudou da ideologia Marxista-Leninista?",
+      "options": [
+        "1980",
+        "1986",
+        "1990",
+        "1992"
+      ],
+      "correct": 2,
+      "explanation": "Em 1990, com a aprovação de uma nova Constituição, Moçambique abandonou oficialmente o Marxismo-Leninismo, legalizou o multipartidarismo e adoptou a economia de mercado. A 'República Popular de Moçambique' tornou-se 'República de Moçambique'."
+    },
+    {
+      "id": 43,
+      "category": "geografia",
+      "difficulty": "medium",
+      "question": "Que oceano banha a costa de Moçambique?",
+      "options": [
+        "Atlântico",
+        "Índico",
+        "Mediterrâneo",
+        "Pacífico"
+      ],
+      "correct": 1,
+      "explanation": "Moçambique tem cerca de 2 700 km de costa banhada pelo Oceano Índico, sendo um dos países africanos com a maior extensão costeira."
+    },
+    {
+      "id": 44,
+      "category": "geografia",
+      "difficulty": "hard",
+      "question": "Quantos países fazem fronteira terrestre com Moçambique?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "Moçambique faz fronteira terrestre com 6 países: Tanzânia (norte), Malawi e Zâmbia (noroeste), Zimbabwe (oeste), África do Sul e Eswatini (sudoeste e sul)."
+    },
+    {
+      "id": 45,
+      "category": "simbolos",
+      "difficulty": "hard",
+      "question": "Como se chama o hino nacional de Moçambique?",
+      "options": [
+        "Pátria Amada",
+        "Viva Moçambique",
+        "Moçambique Livre",
+        "Hino da Liberdade"
+      ],
+      "correct": 0,
+      "explanation": "O hino nacional chama-se 'Pátria Amada', adoptado em 2002, substituindo o anterior 'Viva, Viva a Frelimo' que vigorou desde a independência. A letra é colectiva."
+    },
+    {
+      "id": 46,
+      "category": "presidentes",
+      "difficulty": "hard",
+      "question": "Quem foi o terceiro Presidente de Moçambique?",
+      "options": [
+        "Joaquim Chissano",
+        "Armando Guebuza",
+        "Filipe Nyusi",
+        "Daniel Chapo"
+      ],
+      "correct": 1,
+      "explanation": "Armando Emílio Guebuza foi o terceiro Presidente, governando de 2005 a 2015 (dois mandatos). Antes liderou a delegação do Governo nas negociações de paz em Roma."
+    },
+    {
+      "id": 47,
+      "category": "presidentes",
+      "difficulty": "hard",
+      "question": "Quem foi o quarto Presidente de Moçambique?",
+      "options": [
+        "Armando Guebuza",
+        "Joaquim Chissano",
+        "Filipe Nyusi",
+        "Daniel Chapo"
+      ],
+      "correct": 2,
+      "explanation": "Filipe Jacinto Nyusi foi o quarto Presidente, governando de 15 de Janeiro de 2015 a 15 de Janeiro de 2025, dois mandatos. Sucedeu-lhe Daniel Chapo."
+    },
+    {
+      "id": 48,
+      "category": "guerra_civil",
+      "difficulty": "hard",
+      "question": "Que acordo foi assinado a 7 de Setembro de 1974 entre Portugal e a FRELIMO?",
+      "options": [
+        "Acordo Geral de Paz",
+        "Acordo de Lusaka",
+        "Acordo de Nkomati",
+        "Acordo de Maputo"
+      ],
+      "correct": 1,
+      "explanation": "O Acordo de Lusaka foi assinado a 7 de Setembro de 1974 entre o governo português e a FRELIMO, estabelecendo a transferência de poder e fixando a data da independência para 25 de Junho de 1975."
+    },
+    {
+      "id": 49,
+      "category": "cultura",
+      "difficulty": "hard",
+      "question": "Quem é Mia Couto, conhecida figura cultural moçambicana?",
+      "options": [
+        "Um pintor",
+        "Um músico",
+        "Um escritor e biólogo",
+        "Um realizador de cinema"
+      ],
+      "correct": 2,
+      "explanation": "Mia Couto (António Emílio Leite Couto) é um dos mais conceituados escritores de língua portuguesa, biólogo de formação. Vencedor do Prémio Camões em 2013, autor de 'Terra Sonâmbula' e muitas outras obras."
+    },
+    {
+      "id": 50,
+      "category": "independencia",
+      "difficulty": "hard",
+      "question": "No ano de 2025, quantos anos de independência celebrou Moçambique?",
+      "options": [
+        "40 anos",
+        "45 anos",
+        "50 anos",
+        "55 anos"
+      ],
+      "correct": 2,
+      "explanation": "Em 2025, Moçambique celebrou os 50 anos de independência, contando desde a proclamação a 25 de Junho de 1975. Foi uma data marcada com cerimónias oficiais no Estádio da Machava, local da proclamação original."
+    }
+  ]
+}
