@@ -127,7 +127,7 @@ Qualquer agente que aceite uma pasta com instruções estruturadas funciona.
 
 Este repositório usa três fontes externas com requisitos de atribuição:
 
-**Banco de Moçambique** — XMLs em `sample-data/*.xml`. O BCM autoriza uso para fins privados ou internos, exige citação como fonte, e veda uso comercial sem autorização escrita prévia. Lê os termos completos em `LICENSE` (secção 4) ou directamente em https://www.bancomoc.mz/pt/informacao-legal/.
+**Banco de Moçambique** — XMLs em `sample-data/*.xml`. O BCM autoriza uso para fins privados ou internos, exige citação como fonte, e veda uso comercial sem autorização escrita prévia. Lê os termos completos em `LICENSE` (secção 4) ou directamente no [site oficial](https://www.bancomoc.mz/pt/informacao-legal/).
 
 **geoBoundaries** (Runfola et al. 2020) — fronteiras provinciais em `mocambique-provincias.svg`. Licença CC BY 4.0. Atribuição obrigatória.
 
