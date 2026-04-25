@@ -1,6 +1,6 @@
 # Workshop de Spec-Driven Development 
 
-Material aberto do workshop sobre desenvolvimento spec-driven, em português de Moçambique.
+Material aberto do workshop sobre desenvolvimento spec-driven.
 Construído para programadores e estudantes de IT moçambicanos que querem aprender a **especificar primeiro, programar depois**, usando LLMs como Claude Code, opencode ou codex.
 
 ## O que é spec-driven development
