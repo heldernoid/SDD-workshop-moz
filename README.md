@@ -1,4 +1,4 @@
-# Spec-Driven Development com Claude Code/Codex/OpenCode
+# Workshop de Spec-Driven Development 
 
 Material aberto do workshop sobre desenvolvimento spec-driven, em português de Moçambique.
 Construído para programadores e estudantes de IT moçambicanos que querem aprender a **especificar primeiro, programar depois**, usando LLMs como Claude Code, opencode ou codex.
