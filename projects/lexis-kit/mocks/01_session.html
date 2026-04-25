@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lexis - Sessão</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  --brand: #1e40af;
+  --brand-dark: #1e3a8a;
+  --brand-light: #dbeafe;
+  --correct: #15803d;
+  --correct-bg: #dcfce7;
+  --incorrect: #b91c1c;
+  --incorrect-bg: #fee2e2;
+  --near: #b45309;
+  --near-bg: #fef3c7;
+  --level-b1: #0369a1; --level-b1-bg: #e0f2fe;
+  --level-b2: #7c3aed; --level-b2-bg: #ede9fe;
+  --level-c1: #9a3412; --level-c1-bg: #ffedd5;
+  --text: #0f172a;
+  --text-strong: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --border-focus: #1e40af;
+  --shadow-card: 0 1px 3px rgba(15,23,42,0.08), 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-hover: 0 4px 12px rgba(15,23,42,0.10);
+  --shadow-focus: 0 0 0 3px rgba(30,64,175,0.2);
+  --radius-card: 12px;
+  --radius-btn: 8px;
+  --radius-pill: 999px;
+  --font-ui: Inter, -apple-system, system-ui, sans-serif;
+  --font-serif: Lora, Georgia, serif;
+  --font-mono: "JetBrains Mono", Menlo, Consolas, monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{font-family:var(--font-ui);font-size:15px;color:var(--text);background:var(--bg-page);line-height:1.5;-webkit-font-smoothing:antialiased;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+input{font-family:inherit;}
+
+/* Session header — minimal */
+.header{height:60px;background:var(--bg-card);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;}
+.header-inner{max-width:720px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;font-family:var(--font-mono);}
+.progress-label{font-family:var(--font-mono);font-size:14px;font-weight:500;color:var(--text-muted);}
+.progress-label span{color:var(--text);}
+.close-btn{width:32px;height:32px;border-radius:6px;display:grid;place-items:center;color:var(--text-muted);transition:all 0.15s;}
+.close-btn:hover{background:var(--bg-subtle);color:var(--text);}
+
+/* Progress bar */
+.progress-bar-wrap{height:4px;background:var(--border);}
+.progress-bar-fill{height:100%;background:var(--brand);width:30%;transition:width 0.4s ease;}
+
+/* Main */
+.main{max-width:640px;margin:0 auto;padding:40px 24px 80px;}
+
+/* Badges */
+.badge{display:inline-flex;align-items:center;padding:3px 10px;border-radius:var(--radius-pill);font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;}
+.badge-b1{background:var(--level-b1-bg);color:var(--level-b1);}
+.badge-b2{background:var(--level-b2-bg);color:var(--level-b2);}
+.badge-domain{background:var(--bg-subtle);color:var(--text-secondary);}
+
+/* Flash card */
+.flashcard{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-card);box-shadow:var(--shadow-card);padding:32px;margin-bottom:20px;}
+.card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;}
+.card-badges{display:flex;gap:6px;}
+.card-word{font-family:var(--font-serif);font-size:36px;font-weight:700;letter-spacing:-0.01em;margin-bottom:6px;color:var(--text);}
+.card-pos{font-size:11px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:20px;}
+
+/* Definition (visible when showDefinitionFirst = true) */
+.card-definition{font-size:15px;color:var(--text-secondary);line-height:1.6;padding:14px 16px;background:var(--bg-subtle);border-radius:8px;margin-bottom:0;}
+
+/* Card back — revealed after answer */
+.card-back{border-top:1px solid var(--border);margin-top:24px;padding-top:24px;display:none;}
+.card-back.visible{display:block;}
+.card-example{font-size:14px;font-style:italic;color:var(--text-secondary);border-left:3px solid var(--brand);padding-left:14px;margin-bottom:12px;line-height:1.6;}
+.card-moz-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-muted);margin-bottom:4px;}
+.card-moz-example{font-size:14px;font-style:italic;color:var(--text-secondary);border-left:3px solid #64748b;padding-left:14px;margin-bottom:12px;line-height:1.6;}
+.card-family{margin-top:12px;}
+.card-family-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:6px;}
+.family-pills{display:flex;gap:6px;flex-wrap:wrap;}
+.family-pill{padding:3px 10px;border-radius:var(--radius-pill);background:var(--bg-subtle);border:1px solid var(--border);font-size:13px;color:var(--text-secondary);}
+.note-box{background:var(--near-bg);border-left:3px solid var(--near);padding:10px 14px;border-radius:0 6px 6px 0;font-size:13px;color:var(--text-secondary);margin-top:12px;}
+
+/* Input area */
+.input-area{margin-bottom:16px;}
+.input-wrap{position:relative;}
+.translation-input{width:100%;height:52px;padding:0 16px;border:1.5px solid var(--border-strong);border-radius:var(--radius-input);font-size:16px;color:var(--text);background:var(--bg-card);outline:none;transition:all 0.15s;}
+.translation-input:focus{border-color:var(--border-focus);box-shadow:var(--shadow-focus);}
+.translation-input.correct{border-color:var(--correct);background:var(--correct-bg);color:var(--correct);}
+.translation-input.incorrect{border-color:var(--incorrect);background:var(--incorrect-bg);color:var(--incorrect);}
+.translation-input.near{border-color:var(--near);background:var(--near-bg);color:var(--near);}
+.input-placeholder{color:var(--text-muted);}
+
+.feedback{margin-top:10px;font-size:14px;font-weight:500;min-height:20px;}
+.feedback.correct{color:var(--correct);}
+.feedback.incorrect{color:var(--incorrect);}
+.feedback.near{color:var(--near);}
+
+/* Action buttons */
+.action-row{display:flex;gap:10px;}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 20px;font-size:15px;font-weight:600;border-radius:var(--radius-btn);transition:all 0.15s;cursor:pointer;height:48px;}
+.btn-primary{background:var(--brand);color:#fff;}
+.btn-primary:hover{background:var(--brand-dark);}
+.btn-secondary{background:transparent;border:1.5px solid var(--border-strong);color:var(--text);}
+.btn-secondary:hover{background:var(--bg-subtle);}
+.btn-full{flex:1;}
+.btn-next{background:var(--brand);color:#fff;display:none;}
+.btn-next.visible{display:inline-flex;}
+
+/* State examples — shown in different sections */
+.state-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);padding:8px 0 4px;margin-top:24px;display:block;}
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-mark">Lx</div>
+        Lexis
+      </div>
+      <div class="progress-label"><span>3</span> de <span>10</span></div>
+      <button class="close-btn" onclick="if(confirm('Abandonar sessão?')) location.href='00_home.html'">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill"></div>
+  </div>
+
+  <main class="main">
+
+    <!-- === STATE A: Waiting for answer === -->
+    <span class="state-label">Estado: aguardar resposta</span>
+
+    <div class="flashcard">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-b1">B1</span>
+          <span class="badge badge-domain">Investigação</span>
+        </div>
+      </div>
+      <div class="card-word">analyse</div>
+      <div class="card-pos">Verbo</div>
+      <div class="card-definition">to examine something in detail to understand it</div>
+
+      <!-- Card back hidden until answered -->
+      <div class="card-back">
+        <div class="card-example">"Researchers analyse data to identify trends."</div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-wrap">
+        <input class="translation-input" type="text" placeholder="Escreve a tradução em português...">
+      </div>
+      <div class="feedback"></div>
+    </div>
+    <div class="action-row">
+      <button class="btn btn-primary btn-full">Verificar</button>
+    </div>
+
+    <!-- === STATE B: Correct answer === -->
+    <span class="state-label">Estado: resposta correcta</span>
+
+    <div class="flashcard">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-b1">B1</span>
+          <span class="badge badge-domain">Investigação</span>
+        </div>
+      </div>
+      <div class="card-word">analyse</div>
+      <div class="card-pos">Verbo</div>
+      <div class="card-definition">to examine something in detail to understand it</div>
+      <div class="card-back visible">
+        <div class="card-example">"Researchers analyse data to identify trends."</div>
+        <div class="card-moz-label">Exemplo Moçambique</div>
+        <div class="card-moz-example">"Researchers in Maputo analyse mobile money usage patterns."</div>
+        <div class="card-family">
+          <div class="card-family-label">Família de palavras</div>
+          <div class="family-pills">
+            <span class="family-pill">analysis</span>
+            <span class="family-pill">analyst</span>
+            <span class="family-pill">analytical</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-wrap">
+        <input class="translation-input correct" type="text" value="analisar" disabled>
+      </div>
+      <div class="feedback correct">✓ Correcto!</div>
+    </div>
+    <div class="action-row">
+      <button class="btn btn-next visible btn-full" onclick="location.reload()">Próxima →</button>
+    </div>
+
+    <!-- === STATE C: Incorrect answer === -->
+    <span class="state-label">Estado: resposta incorrecta</span>
+
+    <div class="flashcard">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-b2" style="background:var(--level-b2-bg);color:var(--level-b2)">B2</span>
+          <span class="badge badge-domain">Argumentação</span>
+        </div>
+      </div>
+      <div class="card-word">substantiate</div>
+      <div class="card-pos">Verbo</div>
+      <div class="card-definition">to provide evidence to support a claim</div>
+      <div class="card-back visible">
+        <div class="card-example">"You need to substantiate your argument with data."</div>
+        <div class="note-box">⚠ Em português académico, usa frequentemente "fundamentar" ou "comprovar" em vez de uma tradução literal.</div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-wrap">
+        <input class="translation-input incorrect" type="text" value="sustentar" disabled>
+      </div>
+      <div class="feedback incorrect">✗ Incorrecta. Era: <strong>fundamentar</strong></div>
+    </div>
+    <div class="action-row">
+      <button class="btn btn-next visible btn-full" onclick="location.reload()">Próxima →</button>
+    </div>
+
+    <!-- === STATE D: Near miss === -->
+    <span class="state-label">Estado: quase correcto</span>
+
+    <div class="flashcard">
+      <div class="card-top">
+        <div class="card-badges">
+          <span class="badge badge-b1">B1</span>
+          <span class="badge badge-domain">Investigação</span>
+        </div>
+      </div>
+      <div class="card-word">evidence</div>
+      <div class="card-pos">Substantivo</div>
+      <div class="card-definition">facts or signs that show something is true</div>
+      <div class="card-back visible">
+        <div class="card-example">"The evidence supports the hypothesis."</div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-wrap">
+        <input class="translation-input near" type="text" value="evidenca" disabled>
+      </div>
+      <div class="feedback near">~ Quase! A resposta correcta é: <strong>evidência</strong></div>
+    </div>
+    <div class="action-row">
+      <button class="btn btn-next visible btn-full" onclick="location.href='02_review.html'">Próxima →</button>
+    </div>
+
+  </main>
+
+</body>
+</html>

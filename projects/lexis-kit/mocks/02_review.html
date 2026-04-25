@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lexis - Resultado</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  --brand: #1e40af; --brand-dark: #1e3a8a; --brand-light: #dbeafe;
+  --correct: #15803d; --correct-bg: #dcfce7;
+  --incorrect: #b91c1c; --incorrect-bg: #fee2e2;
+  --near: #b45309; --near-bg: #fef3c7;
+  --level-b1: #0369a1; --level-b1-bg: #e0f2fe;
+  --level-b2: #7c3aed; --level-b2-bg: #ede9fe;
+  --text: #0f172a; --text-strong: #1e293b; --text-secondary: #475569; --text-muted: #94a3b8;
+  --bg-page: #f8fafc; --bg-card: #ffffff; --bg-subtle: #f1f5f9; --bg-hover: #f1f5f9;
+  --border: #e2e8f0; --border-strong: #cbd5e1;
+  --shadow-card: 0 1px 3px rgba(15,23,42,0.08), 0 1px 2px rgba(15,23,42,0.04);
+  --radius-card: 12px; --radius-btn: 8px; --radius-pill: 999px;
+  --font-ui: Inter, -apple-system, system-ui, sans-serif;
+  --font-serif: Lora, Georgia, serif;
+  --font-mono: "JetBrains Mono", Menlo, Consolas, monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{font-family:var(--font-ui);font-size:15px;color:var(--text);background:var(--bg-page);line-height:1.5;-webkit-font-smoothing:antialiased;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+
+.header{height:60px;background:var(--bg-card);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;}
+.header-inner{max-width:900px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;font-family:var(--font-mono);}
+.nav{display:flex;gap:2px;}
+.nav a{padding:7px 14px;border-radius:var(--radius-btn);color:var(--text-secondary);font-weight:500;font-size:14px;}
+.nav a:hover{background:var(--bg-hover);}
+
+.main{max-width:640px;margin:0 auto;padding:40px 24px 80px;}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-card);box-shadow:var(--shadow-card);}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 20px;font-size:15px;font-weight:600;border-radius:var(--radius-btn);transition:all 0.15s;cursor:pointer;height:48px;}
+.btn-primary{background:var(--brand);color:#fff;}
+.btn-primary:hover{background:var(--brand-dark);}
+.btn-secondary{background:transparent;border:1.5px solid var(--border-strong);color:var(--text);}
+.btn-secondary:hover{background:var(--bg-subtle);}
+.btn-secondary:disabled{color:var(--text-muted);border-color:var(--border);cursor:not-allowed;}
+
+/* Hero result */
+.result-card{padding:32px;text-align:center;margin-bottom:20px;}
+.result-score{font-family:var(--font-mono);font-size:56px;font-weight:600;line-height:1;margin-bottom:6px;color:var(--text);}
+.result-pct{font-family:var(--font-mono);font-size:20px;font-weight:500;color:var(--text-muted);margin-bottom:16px;}
+.result-duration{font-size:13px;color:var(--text-muted);}
+.mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:20px;}
+.mini-stat{background:var(--bg-card);padding:14px;text-align:center;}
+.mini-stat-num{font-family:var(--font-mono);font-size:22px;font-weight:600;}
+.mini-stat-num.correct{color:var(--correct);}
+.mini-stat-num.incorrect{color:var(--incorrect);}
+.mini-stat-num.near{color:var(--near);}
+.mini-stat-label{font-size:12px;color:var(--text-muted);margin-top:2px;}
+
+/* Word breakdown */
+.breakdown{margin-bottom:20px;}
+.breakdown-section{margin-bottom:12px;}
+.breakdown-heading{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;padding:10px 16px;background:var(--bg-subtle);border:1px solid var(--border);border-bottom:none;border-radius:8px 8px 0 0;color:var(--text-secondary);display:flex;align-items:center;gap:8px;}
+.breakdown-heading .count{font-family:var(--font-mono);}
+.word-rows{border:1px solid var(--border);border-radius:0 0 8px 8px;overflow:hidden;}
+.word-row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:11px 16px;background:var(--bg-card);border-bottom:1px solid var(--border);}
+.word-row:last-child{border-bottom:none;}
+.word-row:hover{background:var(--bg-hover);}
+.word-name{font-size:14px;font-weight:600;}
+.word-translation{font-size:14px;color:var(--text-secondary);}
+.result-icon{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:12px;flex-shrink:0;}
+.result-icon.correct{background:var(--correct-bg);color:var(--correct);}
+.result-icon.incorrect{background:var(--incorrect-bg);color:var(--incorrect);}
+.result-icon.near{background:var(--near-bg);color:var(--near);}
+.reveal-btn{font-size:12px;color:var(--brand);font-weight:500;padding:2px 8px;border-radius:4px;cursor:pointer;}
+.reveal-btn:hover{background:var(--brand-light);}
+.example-reveal{font-size:13px;font-style:italic;color:var(--text-secondary);padding:8px 16px 12px;background:var(--bg-subtle);border-top:1px solid var(--border);}
+
+/* CTA row */
+.cta-row{display:flex;gap:12px;}
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-mark">Lx</div>
+        Lexis
+      </div>
+      <nav class="nav">
+        <a href="00_home.html">Início</a>
+        <a href="03_browse.html">Vocabulário</a>
+        <a href="05_settings.html">Definições</a>
+      </nav>
+      <div style="width:36px"></div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero result -->
+    <div class="card result-card" style="margin-bottom:20px;">
+      <div class="result-score">8 / 10</div>
+      <div class="result-pct">80%</div>
+      <div class="result-duration">Duração: 4 min 12 seg · 25/04/2026</div>
+      <div class="mini-stats">
+        <div class="mini-stat">
+          <div class="mini-stat-num correct">8</div>
+          <div class="mini-stat-label">Correctas</div>
+        </div>
+        <div class="mini-stat">
+          <div class="mini-stat-num incorrect">1</div>
+          <div class="mini-stat-label">Incorrectas</div>
+        </div>
+        <div class="mini-stat">
+          <div class="mini-stat-num near">1</div>
+          <div class="mini-stat-label">Quase</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Correct words -->
+    <div class="breakdown-section">
+      <div class="breakdown-heading">
+        <span class="result-icon correct">✓</span>
+        Correctas <span class="count">8</span>
+      </div>
+      <div class="word-rows">
+        <div class="word-row">
+          <div><span class="word-name">analyse</span></div>
+          <div class="word-translation">analisar</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">data</span></div>
+          <div class="word-translation">dados</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">significant</span></div>
+          <div class="word-translation">significativo</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">methodology</span></div>
+          <div class="word-translation">metodologia</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">hypothesis</span></div>
+          <div class="word-translation">hipótese</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">conclude</span></div>
+          <div class="word-translation">concluir</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">policy</span></div>
+          <div class="word-translation">política</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+        <div class="word-row">
+          <div><span class="word-name">implement</span></div>
+          <div class="word-translation">implementar</div>
+          <div class="result-icon correct">✓</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Incorrect words -->
+    <div class="breakdown-section">
+      <div class="breakdown-heading">
+        <span class="result-icon incorrect">✗</span>
+        Incorrectas <span class="count">1</span>
+      </div>
+      <div class="word-rows">
+        <div class="word-row">
+          <div>
+            <span class="word-name">substantiate</span>
+            <div style="font-size:13px;color:var(--text-muted);">Respondeste: "sustentar"</div>
+          </div>
+          <div class="word-translation" style="color:var(--incorrect);font-weight:500;">fundamentar</div>
+          <div class="result-icon incorrect">✗</div>
+        </div>
+        <div class="example-reveal">
+          "You need to <em>substantiate</em> your argument with data."
+        </div>
+      </div>
+    </div>
+
+    <!-- Near miss -->
+    <div class="breakdown-section" style="margin-bottom:24px;">
+      <div class="breakdown-heading">
+        <span class="result-icon near">~</span>
+        Quase <span class="count">1</span>
+      </div>
+      <div class="word-rows">
+        <div class="word-row">
+          <div>
+            <span class="word-name">evidence</span>
+            <div style="font-size:13px;color:var(--text-muted);">Respondeste: "evidenca"</div>
+          </div>
+          <div class="word-translation" style="color:var(--near);font-weight:500;">evidência</div>
+          <div class="result-icon near">~</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-row">
+      <button class="btn btn-primary" style="flex:1" onclick="location.href='00_home.html'">Nova sessão</button>
+      <button class="btn btn-secondary" onclick="location.href='01_session.html'">Rever incorrectas (1)</button>
+    </div>
+
+  </main>
+
+</body>
+</html>

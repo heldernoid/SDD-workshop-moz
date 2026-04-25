@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lexis - Vocabulário</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  --brand: #1e40af; --brand-dark: #1e3a8a; --brand-light: #dbeafe;
+  --correct: #15803d; --correct-bg: #dcfce7;
+  --level-b1: #0369a1; --level-b1-bg: #e0f2fe;
+  --level-b2: #7c3aed; --level-b2-bg: #ede9fe;
+  --level-c1: #9a3412; --level-c1-bg: #ffedd5;
+  --text: #0f172a; --text-strong: #1e293b; --text-secondary: #475569; --text-muted: #94a3b8;
+  --bg-page: #f8fafc; --bg-card: #ffffff; --bg-subtle: #f1f5f9; --bg-hover: #f1f5f9;
+  --border: #e2e8f0; --border-strong: #cbd5e1; --border-focus: #1e40af;
+  --shadow-card: 0 1px 3px rgba(15,23,42,0.08), 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-focus: 0 0 0 3px rgba(30,64,175,0.2);
+  --radius-card: 12px; --radius-btn: 8px; --radius-pill: 999px; --radius-input: 8px;
+  --font-ui: Inter, -apple-system, system-ui, sans-serif;
+  --font-serif: Lora, Georgia, serif;
+  --font-mono: "JetBrains Mono", Menlo, Consolas, monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{font-family:var(--font-ui);font-size:15px;color:var(--text);background:var(--bg-page);line-height:1.5;-webkit-font-smoothing:antialiased;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+input,select{font-family:inherit;color:inherit;}
+a{color:inherit;text-decoration:none;}
+
+.header{height:60px;background:var(--bg-card);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;}
+.header-inner{max-width:900px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;font-family:var(--font-mono);}
+.nav{display:flex;gap:2px;}
+.nav a{padding:7px 14px;border-radius:var(--radius-btn);color:var(--text-secondary);font-weight:500;font-size:14px;transition:all 0.15s;}
+.nav a:hover{background:var(--bg-hover);}
+.nav a.active{background:var(--brand-light);color:var(--brand);font-weight:600;}
+
+.main{max-width:900px;margin:0 auto;padding:40px 24px 80px;}
+.page-title{font-size:24px;font-weight:700;letter-spacing:-0.02em;margin-bottom:4px;}
+.page-sub{font-size:14px;color:var(--text-muted);margin-bottom:28px;}
+
+/* Filter bar */
+.filter-bar{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-card);padding:16px 20px;margin-bottom:20px;box-shadow:var(--shadow-card);}
+.filter-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;}
+.search-wrap{flex:1;min-width:200px;position:relative;}
+.search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-muted);}
+.search-input{width:100%;height:40px;padding:0 12px 0 36px;border:1.5px solid var(--border-strong);border-radius:var(--radius-input);font-size:14px;outline:none;transition:all 0.15s;background:var(--bg-card);}
+.search-input:focus{border-color:var(--border-focus);box-shadow:var(--shadow-focus);}
+.filter-pills{display:flex;gap:6px;}
+.filter-pill{padding:6px 14px;border-radius:var(--radius-pill);border:1px solid var(--border-strong);font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 0.15s;background:transparent;}
+.filter-pill:hover{border-color:var(--brand);color:var(--brand);}
+.filter-pill.all.active{background:var(--brand);border-color:var(--brand);color:#fff;}
+.filter-pill.b1.active{background:var(--level-b1-bg);border-color:var(--level-b1);color:var(--level-b1);}
+.filter-pill.b2.active{background:var(--level-b2-bg);border-color:var(--level-b2);color:var(--level-b2);}
+.filter-pill.c1.active{background:var(--level-c1-bg);border-color:var(--level-c1);color:var(--level-c1);}
+.domain-select{height:40px;padding:0 12px;border:1.5px solid var(--border-strong);border-radius:var(--radius-input);font-size:14px;color:var(--text);background:var(--bg-card);outline:none;cursor:pointer;}
+.sort-select{height:40px;padding:0 12px;border:1.5px solid var(--border-strong);border-radius:var(--radius-input);font-size:14px;color:var(--text);background:var(--bg-card);outline:none;cursor:pointer;}
+
+/* Word table */
+.count-label{font-size:13px;color:var(--text-muted);margin-bottom:10px;}
+.word-table{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-card);overflow:hidden;box-shadow:var(--shadow-card);}
+.table-header{display:grid;grid-template-columns:2fr 1.5fr auto auto auto;gap:12px;padding:10px 16px;background:var(--bg-subtle);border-bottom:1px solid var(--border);}
+.th{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);}
+.word-row{display:grid;grid-template-columns:2fr 1.5fr auto auto auto;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--border);cursor:pointer;transition:background 0.1s;}
+.word-row:last-child{border-bottom:none;}
+.word-row:hover{background:var(--bg-hover);}
+.word-cell{display:flex;flex-direction:column;gap:2px;}
+.word-name{font-size:14px;font-weight:600;color:var(--text);}
+.word-pos{font-size:12px;color:var(--text-muted);}
+.word-translation{font-size:14px;color:var(--text-secondary);}
+.badge{display:inline-flex;align-items:center;padding:3px 10px;border-radius:var(--radius-pill);font-size:11px;font-weight:600;letter-spacing:0.03em;white-space:nowrap;}
+.badge-b1{background:var(--level-b1-bg);color:var(--level-b1);}
+.badge-b2{background:var(--level-b2-bg);color:var(--level-b2);}
+.badge-c1{background:var(--level-c1-bg);color:var(--level-c1);}
+.badge-domain{background:var(--bg-subtle);color:var(--text-secondary);}
+.srs-icon{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:11px;flex-shrink:0;}
+.srs-new{background:var(--bg-subtle);color:var(--text-muted);}
+.srs-learnt{background:var(--correct-bg);color:var(--correct);}
+.srs-due{background:#fef3c7;color:#b45309;}
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-mark">Lx</div>
+        Lexis
+      </div>
+      <nav class="nav">
+        <a href="00_home.html">Início</a>
+        <a href="03_browse.html" class="active">Vocabulário</a>
+        <a href="05_settings.html">Definições</a>
+      </nav>
+      <div style="width:36px"></div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">Vocabulário Académico</div>
+    <div class="page-sub">200 palavras · TOEFL · IELTS · Acesso ao Ensino Superior</div>
+
+    <div class="filter-bar">
+      <div class="filter-row">
+        <div class="search-wrap">
+          <svg class="search-icon" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input class="search-input" type="text" placeholder="Pesquisar palavra ou tradução...">
+        </div>
+        <div class="filter-pills">
+          <button class="filter-pill all active">Todos</button>
+          <button class="filter-pill b1">B1</button>
+          <button class="filter-pill b2">B2</button>
+          <button class="filter-pill c1">C1</button>
+        </div>
+        <select class="domain-select">
+          <option>Todos os domínios</option>
+          <option>Investigação e Métodos</option>
+          <option>Argumentação e Escrita</option>
+          <option>Sociedade, Política e Direito</option>
+          <option>Economia e Negócios</option>
+          <option>Ciência e Tecnologia</option>
+          <option>Universidade e Estudos</option>
+          <option>Saúde e Medicina</option>
+          <option>Ambiente e Sustentabilidade</option>
+        </select>
+        <select class="sort-select">
+          <option>A–Z</option>
+          <option>Nível</option>
+          <option>Domínio</option>
+          <option>A Rever</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="count-label">A mostrar 200 de 200 palavras</div>
+
+    <div class="word-table">
+      <div class="table-header">
+        <div class="th">Palavra</div>
+        <div class="th">Tradução</div>
+        <div class="th">Nível</div>
+        <div class="th">Domínio</div>
+        <div class="th">Estado</div>
+      </div>
+
+      <a href="04_word_detail.html" style="display:contents;">
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">analyse</span><span class="word-pos">verbo</span></div>
+        <div class="word-translation">analisar</div>
+        <span class="badge badge-b1">B1</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-learnt" title="Aprendida">✓</div>
+      </div>
+      </a>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">analysis</span><span class="word-pos">substantivo</span></div>
+        <div class="word-translation">análise</div>
+        <span class="badge badge-b1">B1</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-learnt" title="Aprendida">✓</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">data</span><span class="word-pos">substantivo</span></div>
+        <div class="word-translation">dados</div>
+        <span class="badge badge-b1">B1</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-due" title="Em revisão">↻</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">hypothesis</span><span class="word-pos">substantivo</span></div>
+        <div class="word-translation">hipótese</div>
+        <span class="badge badge-b2">B2</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-due" title="Em revisão">↻</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">methodology</span><span class="word-pos">substantivo</span></div>
+        <div class="word-translation">metodologia</div>
+        <span class="badge badge-b2">B2</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-new" title="Nova">●</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">substantiate</span><span class="word-pos">verbo</span></div>
+        <div class="word-translation">fundamentar</div>
+        <span class="badge badge-c1">C1</span>
+        <span class="badge badge-domain">Argumentação</span>
+        <div class="srs-icon srs-new" title="Nova">●</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">policy</span><span class="word-pos">substantivo</span></div>
+        <div class="word-translation">política</div>
+        <span class="badge badge-b1">B1</span>
+        <span class="badge badge-domain">Sociedade</span>
+        <div class="srs-icon srs-learnt" title="Aprendida">✓</div>
+      </div>
+
+      <div class="word-row">
+        <div class="word-cell"><span class="word-name">significant</span><span class="word-pos">adjectivo</span></div>
+        <div class="word-translation">significativo</div>
+        <span class="badge badge-b1">B1</span>
+        <span class="badge badge-domain">Investigação</span>
+        <div class="srs-icon srs-learnt" title="Aprendida">✓</div>
+      </div>
+
+      <div class="word-row" style="opacity:0.5">
+        <div class="word-cell"><span class="word-name">… mais 192 palavras</span></div>
+        <div></div><div></div><div></div><div></div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>

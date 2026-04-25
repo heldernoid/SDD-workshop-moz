@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lexis - Início</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+:root {
+  --brand: #1e40af;
+  --brand-dark: #1e3a8a;
+  --brand-light: #dbeafe;
+  --correct: #15803d;
+  --correct-bg: #dcfce7;
+  --incorrect: #b91c1c;
+  --incorrect-bg: #fee2e2;
+  --near: #b45309;
+  --near-bg: #fef3c7;
+  --level-b1: #0369a1; --level-b1-bg: #e0f2fe;
+  --level-b2: #7c3aed; --level-b2-bg: #ede9fe;
+  --level-c1: #9a3412; --level-c1-bg: #ffedd5;
+  --text: #0f172a;
+  --text-strong: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-disabled: #cbd5e1;
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --bg-hover: #f1f5f9;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --border-focus: #1e40af;
+  --shadow-card: 0 1px 3px rgba(15,23,42,0.08), 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-hover: 0 4px 12px rgba(15,23,42,0.10);
+  --shadow-focus: 0 0 0 3px rgba(30,64,175,0.2);
+  --radius-card: 12px;
+  --radius-btn: 8px;
+  --radius-pill: 999px;
+  --radius-input: 8px;
+  --font-ui: Inter, -apple-system, system-ui, sans-serif;
+  --font-serif: Lora, Georgia, serif;
+  --font-mono: "JetBrains Mono", Menlo, Consolas, monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{font-family:var(--font-ui);font-size:15px;color:var(--text);background:var(--bg-page);line-height:1.5;-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+
+/* Header */
+.header{position:sticky;top:0;z-index:10;height:60px;background:var(--bg-card);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;}
+.header-inner{max-width:900px;width:100%;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px;}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:-0.02em;}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--brand);display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px;font-family:var(--font-mono);}
+.nav{display:flex;gap:2px;}
+.nav a{padding:7px 14px;border-radius:var(--radius-btn);color:var(--text-secondary);font-weight:500;font-size:14px;transition:all 0.15s;}
+.nav a:hover{background:var(--bg-hover);color:var(--text);}
+.nav a.active{background:var(--brand-light);color:var(--brand);font-weight:600;}
+.icon-btn{width:36px;height:36px;border-radius:var(--radius-btn);display:grid;place-items:center;color:var(--text-secondary);transition:background 0.15s;}
+.icon-btn:hover{background:var(--bg-hover);color:var(--text);}
+
+/* Layout */
+.main{max-width:900px;width:100%;margin:0 auto;padding:40px 24px 80px;}
+
+/* Cards */
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-card);box-shadow:var(--shadow-card);}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 20px;font-size:15px;font-weight:600;border-radius:var(--radius-btn);transition:all 0.15s;cursor:pointer;}
+.btn-primary{background:var(--brand);color:#fff;}
+.btn-primary:hover{background:var(--brand-dark);box-shadow:var(--shadow-hover);}
+.btn-primary:disabled{background:var(--border);color:var(--text-disabled);cursor:not-allowed;box-shadow:none;}
+.btn-secondary{background:transparent;border:1px solid var(--border-strong);color:var(--text);}
+.btn-secondary:hover{background:var(--bg-hover);}
+.btn-full{width:100%;}
+
+/* Stats row */
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:32px;}
+.stat-card{padding:24px;display:flex;flex-direction:column;gap:6px;}
+.stat-label{font-size:12px;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;}
+.stat-number{font-family:var(--font-mono);font-size:36px;font-weight:600;color:var(--text);line-height:1;}
+.stat-number.highlight{color:var(--brand);}
+.stat-sub{font-size:13px;color:var(--text-muted);}
+.streak-row{display:flex;align-items:center;gap:6px;}
+
+/* Session launcher */
+.launcher{padding:28px;margin-bottom:32px;}
+.launcher-title{font-size:18px;font-weight:600;margin-bottom:20px;letter-spacing:-0.01em;}
+.field{margin-bottom:18px;}
+.field-label{font-size:12px;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;}
+.pill-group{display:flex;gap:8px;flex-wrap:wrap;}
+.pill{padding:7px 16px;border-radius:var(--radius-pill);border:1px solid var(--border-strong);font-size:14px;font-weight:500;color:var(--text-secondary);cursor:pointer;transition:all 0.15s;}
+.pill:hover{border-color:var(--brand);color:var(--brand);}
+.pill.active{background:var(--brand);border-color:var(--brand);color:#fff;}
+.pill-b1{padding:5px 14px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:all 0.15s;}
+.pill-b1.active{background:var(--level-b1-bg);color:var(--level-b1);border-color:var(--level-b1);}
+.pill-b1.inactive{background:var(--bg-subtle);color:var(--text-muted);border-color:var(--border);}
+.pill-b2{padding:5px 14px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:all 0.15s;}
+.pill-b2.active{background:var(--level-b2-bg);color:var(--level-b2);border-color:var(--level-b2);}
+.pill-b2.inactive{background:var(--bg-subtle);color:var(--text-muted);border-color:var(--border);}
+.pill-c1{padding:5px 14px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:all 0.15s;}
+.pill-c1.active{background:var(--level-c1-bg);color:var(--level-c1);border-color:var(--level-c1);}
+.pill-c1.inactive{background:var(--bg-subtle);color:var(--text-muted);border-color:var(--border);}
+.count-group{display:flex;gap:8px;}
+.count-btn{width:56px;height:40px;border-radius:var(--radius-btn);border:1px solid var(--border-strong);font-size:15px;font-weight:600;font-family:var(--font-mono);color:var(--text-secondary);cursor:pointer;transition:all 0.15s;background:transparent;}
+.count-btn:hover{border-color:var(--brand);color:var(--brand);}
+.count-btn.active{background:var(--brand);border-color:var(--brand);color:#fff;}
+.launcher-bottom{margin-top:4px;}
+.disabled-msg{font-size:13px;color:var(--text-muted);text-align:center;margin-top:10px;}
+
+/* Recent sessions */
+.section-title{font-size:16px;font-weight:600;margin-bottom:14px;letter-spacing:-0.01em;}
+.sessions-list{display:flex;flex-direction:column;gap:1px;border:1px solid var(--border);border-radius:var(--radius-card);overflow:hidden;}
+.session-row{display:grid;grid-template-columns:1fr auto auto auto;gap:16px;align-items:center;padding:12px 16px;background:var(--bg-card);border-bottom:1px solid var(--border);}
+.session-row:last-child{border-bottom:none;}
+.session-date{font-size:14px;color:var(--text-secondary);}
+.session-score{font-family:var(--font-mono);font-size:15px;font-weight:500;color:var(--correct);}
+.session-score.low{color:var(--incorrect);}
+.session-score.mid{color:var(--near);}
+.session-duration{font-family:var(--font-mono);font-size:13px;color:var(--text-muted);}
+.session-count{font-size:13px;color:var(--text-muted);}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-mark">Lx</div>
+        Lexis
+      </div>
+      <nav class="nav">
+        <a href="00_home.html" class="active">Início</a>
+        <a href="03_browse.html">Vocabulário</a>
+        <a href="05_settings.html">Definições</a>
+      </nav>
+      <div style="width:36px"></div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Stats row -->
+    <div class="stats-row">
+      <div class="card stat-card">
+        <div class="stat-label">Palavras aprendidas</div>
+        <div class="stat-number">47</div>
+        <div class="stat-sub">de 200 no total</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Em revisão hoje</div>
+        <div class="stat-number highlight">12</div>
+        <div class="stat-sub">cartas em atraso</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-label">Sequência</div>
+        <div class="streak-row">
+          <div class="stat-number">5</div>
+          <span style="font-size:24px">🔥</span>
+        </div>
+        <div class="stat-sub">dias consecutivos</div>
+      </div>
+    </div>
+
+    <!-- Session launcher -->
+    <div class="card launcher">
+      <div class="launcher-title">Sessão de estudo</div>
+
+      <div class="field">
+        <div class="field-label">Modo</div>
+        <div class="pill-group">
+          <button class="pill">Novas</button>
+          <button class="pill">Revisão</button>
+          <button class="pill active">Misto</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="field-label">Nível</div>
+        <div class="pill-group">
+          <button class="pill-b1 active">B1</button>
+          <button class="pill-b2 active">B2</button>
+          <button class="pill-c1 active">C1</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="field-label">Número de cartas</div>
+        <div class="count-group">
+          <button class="count-btn">5</button>
+          <button class="count-btn active">10</button>
+          <button class="count-btn">20</button>
+        </div>
+      </div>
+
+      <div class="launcher-bottom">
+        <button class="btn btn-primary btn-full" onclick="location.href='01_session.html'">
+          Começar sessão
+        </button>
+      </div>
+    </div>
+
+    <!-- Recent sessions -->
+    <div class="section-title">Sessões recentes</div>
+    <div class="sessions-list">
+      <div class="session-row">
+        <div class="session-date">Hoje, 09:14</div>
+        <div class="session-count">10 cartas</div>
+        <div class="session-score">8 / 10</div>
+        <div class="session-duration">4 min 02 seg</div>
+      </div>
+      <div class="session-row">
+        <div class="session-date">Ontem, 21:30</div>
+        <div class="session-count">10 cartas</div>
+        <div class="session-score mid">6 / 10</div>
+        <div class="session-duration">5 min 18 seg</div>
+      </div>
+      <div class="session-row">
+        <div class="session-date">23/04/2026, 18:45</div>
+        <div class="session-count">5 cartas</div>
+        <div class="session-score">5 / 5</div>
+        <div class="session-duration">2 min 11 seg</div>
+      </div>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>
