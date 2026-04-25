@@ -25,7 +25,7 @@ git --version
 ## Passo 1: Clonar este repositório
 
 ```bash
-git clone https://github.com/<user>/<repo>.git workshop
+git clone https://github.com/heldernoid/SDD-workshop-moz.git workshop
 cd workshop
 ```
 
