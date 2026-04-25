@@ -31,25 +31,11 @@ cd workshop
 
 ## Passo 2: Instalar um agente de coding
 
-Escolhe **um** dos três. Todos são gratuitos para usar (pagas só pelos tokens dos modelos).
+Escolhe **um** dos dois. Ambos são gratuitos para usar (pagas só pelos tokens dos modelos).
 
-### Opção A: Claude Code (recomendado)
+### Opção A: opencode
 
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-Verifica:
-
-```bash
-claude --version
-```
-
-Documentação: https://docs.claude.com/en/docs/claude-code/overview
-
-### Opção B: opencode
-
-Agente open-source, suporta múltiplos providers.
+Agente open-source, suporta múltiplos providers via configuração JSON.
 
 ```bash
 npm install -g opencode-ai
@@ -57,7 +43,9 @@ npm install -g opencode-ai
 
 Documentação: https://opencode.ai
 
-### Opção C: codex
+### Opção B: codex
+
+Agente da OpenAI, em Rust, configurável via `~/.codex/config.toml`.
 
 ```bash
 npm install -g @openai/codex
@@ -86,20 +74,73 @@ WORKSHOP_LLM_BASE_URL=https://random-words.trycloudflare.com/v1
 
 Para configurar o agente a usar este endpoint, depende do agente:
 
-**Claude Code** usa Anthropic API por defeito. Para usar o endpoint local, podes precisar de configurar uma variável de ambiente que aponte para o endpoint OpenAI-compatible. Verifica a documentação actual.
+**opencode** usa um ficheiro `opencode.json` para definir providers customizados. Cria-o na raiz do teu projecto (ou em `~/.config/opencode/opencode.json` para configuração global):
 
-**opencode** suporta endpoints OpenAI-compatible directamente:
-
-```bash
-opencode auth login
-# Selecciona "Custom OpenAI" e cola a URL
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "llama.cpp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "llama-server (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:8080/v1"
+      },
+      "models": {
+        "qwen-coder": {
+          "name": "Qwen3-Coder (local)",
+          "limit": {
+            "context": 256000,
+            "output": 65536
+          }
+        }
+      }
+    }
+  }
+}
 ```
 
-**codex** suporta `--baseURL`:
+Notas:
+- O nome do modelo (`qwen-coder`) tem de bater certo com o `--alias` que passaste ao `llama-server`
+- O `limit.context` deve coincidir (ou ser inferior) ao `-c` do llama-server
+- Lança com `opencode` e usa `/models` para escolher "Qwen3-Coder (local)" da lista
+
+**codex** já não suporta as flags `--baseURL` / `--apiKey`. Configuras tudo via `~/.codex/config.toml` e profiles.
+
+Primeiro, lança o `llama-server` com um alias para o modelo (deixa o nome curto e amigável):
 
 ```bash
-codex --baseURL https://random-words.trycloudflare.com/v1 --apiKey dummy
+llama-server -m Qwen3-Coder-Next-Q8_0-00001-of-00004.gguf \
+  --alias qwen-coder \
+  -c 256000 --host 0.0.0.0 --port 8080 \
+  --temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.00 \
+  --kv-unified --cache-type-k q8_0 --cache-type-v q8_0 \
+  --flash-attn on --fit on
 ```
+
+Depois cria/edita `~/.codex/config.toml`:
+
+```toml
+[model_providers.local]
+name = "llama-server"
+base_url = "http://127.0.0.1:8080/v1"
+wire_api = "responses"
+
+[profiles.qwen-coder]
+model = "qwen-coder"
+model_provider = "local"
+web_search = "disabled"
+```
+
+E lança com o profile:
+
+```bash
+codex -p qwen-coder
+```
+
+> **Nota sobre o aviso "Model metadata for `qwen-coder` not found":** o Codex avisa que não tem metadata oficial para modelos não-OpenAI e que isso "pode degradar performance". **Podes ignorar** este aviso. O agente funciona normalmente.
+
+> **Importante:** Codex requer `wire_api = "responses"` (já não suporta `"chat"`). Para isto funcionar com modelos locais, o llama-server tem de ter o endpoint `/v1/responses` (versões recentes têm; se não funcionar, actualiza com `brew upgrade llama.cpp` ou recompila do master). Em algumas combinações de versões pode aparecer o erro `'type' of tool must be 'function'` — neste caso, faz update do llama.cpp.
 
 ### Cenário B: OpenRouter (depois do workshop, ou alternativa)
 
@@ -118,8 +159,6 @@ OPENROUTER_MODEL=mistralai/ministral-14b-2512
 
 Para configurar o agente:
 
-**Claude Code:** suporta OpenAI-compatible providers. Configurar via `ANTHROPIC_BASE_URL` ou flags equivalentes.
-
 **opencode:**
 
 ```bash
@@ -127,26 +166,28 @@ opencode auth login
 # Selecciona "OpenRouter" e cola a key
 ```
 
-**codex:**
+**codex:** adiciona um provider e profile no `~/.codex/config.toml`:
 
-```bash
-codex --baseURL https://openrouter.ai/api/v1 --apiKey $OPENROUTER_API_KEY --model mistralai/ministral-14b-2512
+```toml
+[model_providers.openrouter]
+name = "OpenRouter"
+base_url = "https://openrouter.ai/api/v1"
+wire_api = "responses"
+env_key = "OPENROUTER_API_KEY"
+
+[profiles.openrouter]
+model = "mistralai/ministral-14b-2512"
+model_provider = "openrouter"
 ```
 
-### Cenário C: Anthropic API directa (Claude Code only)
-
-Se queres usar Claude Code com a API directa da Anthropic:
-
-1. Cria conta em https://console.anthropic.com
-2. Adiciona crédito (~5 USD chega)
-3. Gera key em https://console.anthropic.com/settings/keys
-4. Configura:
+E lança com:
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+export OPENROUTER_API_KEY=sk-or-v1-...
+codex -p openrouter
 ```
 
-Modelos recomendados (baratos): Claude Haiku 4.5.
+> **Atenção:** nem todos os modelos do OpenRouter suportam Responses API. Se aparecer erro 400 ou de schema, troca o modelo ou usa opencode em vez do Codex para esse provider.
 
 ## Passo 4: Verificar que está tudo a funcionar
 
@@ -163,14 +204,11 @@ EOF
 Lança o agente:
 
 ```bash
-# Claude Code
-claude
-
-# ou opencode
+# opencode
 opencode
 
-# ou codex
-codex
+# ou codex (com o profile que configuraste no Passo 3)
+codex -p qwen-coder
 ```
 
 Pede ao agente: "Lê AGENTS.md e executa." Deve criar `hello.txt`.
@@ -201,7 +239,6 @@ Para um projecto típico do `PROJECT-IDEAS.md` (1-2 vistas, 1 fonte de dados):
 | Modelo | Custo aproximado |
 |---|---|
 | `mistralai/ministral-14b-2512` (OpenRouter) | < 0.20 USD |
-| Claude Haiku 4.5 (Anthropic) | < 0.50 USD |
 | Gemini Flash (via OpenRouter) | < 0.30 USD |
 | LlamaCPP local (durante workshop) | grátis |
 
@@ -209,7 +246,7 @@ Os 2 USD que mencionamos por participante cobrem largamente uma sessão completa
 
 ## Resolução de problemas
 
-### "command not found: claude" / "opencode" / "codex"
+### "command not found: opencode" / "codex"
 
 O `npm install -g` foi para um path que não está em `$PATH`. Corrige com:
 
